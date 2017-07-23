@@ -1,1 +1,0 @@
-# kinnaman.github.io
