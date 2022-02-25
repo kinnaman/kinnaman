@@ -1,0 +1,66 @@
+---
+layout:	post
+title:	"Web Development Resources"
+date: 	2022-02-24
+categories: web-development
+---
+
+Learning to build websites can be learned entirely online for free. Though in person mentoring can be useful, one of the most important skills as a technology skills is learning how to answer your own questions. This is a resource for others to reference if they're curious about web development. It is loosely based off of university code camps syllabi.
+
+I used many of these same resources when I taught myself and friends how to do simple web development. Be sure to use search engines, forums, mentors, and online communities.
+
+**PC Minimum Requirements**
+
+Linux: 2GB RAM \
+Windows: 4GB RAM, 10GB+ storage, Windows 8+ \ 
+MacOS: 4GB RAM, 10GB+ storage \
+
+### Recommended Starter Software
+If you have never approached programming before, these are extremely beginner friendly tools to create a simple webpage. Always use what works best for productivity and user preference. An editor and a web browser is needed before anything else is started.
+- [Atom](https://atom.io/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Chrome](https://www.google.com/chrome/index.html)
+
+### Overview: Subjects, Languages, and Topics
+
+**Concepts** \
+Searches and Sorts \
+Performance \
+Time Complexity \
+Big O Notation \
+Data Structures \
+Responsive Design \
+Progressive Web Applications (PWAs) \
+Local Storage, Session Storage, IndexedDB \
+MongoDB \
+User Authentication \
+Template Engines \
+MERN Stack & Alternative Stacks \
+Client-Server Model \
+API \
+Rest \
+HTTP Request Methods \
+Heroku \
+Git \
+Github & Github Pages \
+Shell Scripting \
+Unit Testing \
+Lintin \
+Continuous Integration \
+Amazon Web Services and Cloud Computing Services \
+ \
+**Languages & APIs** \
+HTML/CSS \
+React.js \
+Javascript/jQuery \
+C# \
+Python \
+Java \
+MySQL \
+JSON \
+AJAX (Fetch API) \
+GraphQL \
+Bootstrap 
+
+#### Free Digital Media Tools
+It is useful, though not necessary, to know how to create and edit digital media. Popular programs often have free alternatives that are great to learn and practice with. These include: Inkscape, Kdenlive, Blender, and Gimp.
