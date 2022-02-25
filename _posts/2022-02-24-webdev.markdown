@@ -13,10 +13,10 @@ I used many of these same resources when I taught myself and friends how to do s
 
 Linux: 2GB RAM \
 Windows: 4GB RAM, 10GB+ storage, Windows 8+ <br> 
-MacOS: 4GB RAM, 10GB+ storage \
+MacOS: 4GB RAM, 10GB+ storage 
 
 ### Recommended Starter Software
-If you have never approached programming before, these are extremely beginner friendly tools to create a simple webpage. Always use what works best for productivity purposes. The two essential tools to get started are an editor and a web browser. I recommend downloading all of the follow:
+If you have never approached programming before, these are extremely beginner friendly tools to create a simple webpage. Always use what works best for productivity purposes. The two essential tools to get started are an editor and a web browser. I recommend downloading all of the following:
 - [Atom](https://atom.io/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Chrome](https://www.google.com/chrome/index.html)
