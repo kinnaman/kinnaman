@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://kinnaman.net/feed.xml" rel="self" type="application/atom+xml" /><link href="http://kinnaman.net/" rel="alternate" type="text/html" /><updated>2022-02-24T22:10:30-08:00</updated><id>http://kinnaman.net/feed.xml</id><title type="html">Kinnaman</title><subtitle>This is the personal blog of Morgan Kinnaman.</subtitle><entry><title type="html">Web Development Resources</title><link href="http://kinnaman.net/web-development/2022/02/24/webdev.html" rel="alternate" type="text/html" title="Web Development Resources" /><published>2022-02-24T00:00:00-08:00</published><updated>2022-02-24T00:00:00-08:00</updated><id>http://kinnaman.net/web-development/2022/02/24/webdev</id><content type="html" xml:base="http://kinnaman.net/web-development/2022/02/24/webdev.html"><![CDATA[<p>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they’re curious about web development. It is loosely based off of university code camps syllabi.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://kinnaman.net/feed.xml" rel="self" type="application/atom+xml" /><link href="http://kinnaman.net/" rel="alternate" type="text/html" /><updated>2022-02-25T19:12:13-08:00</updated><id>http://kinnaman.net/feed.xml</id><title type="html">Kinnaman</title><subtitle>This is the personal blog of Morgan Kinnaman.</subtitle><entry><title type="html">Web Development Resources</title><link href="http://kinnaman.net/web-development/2022/02/24/webdev.html" rel="alternate" type="text/html" title="Web Development Resources" /><published>2022-02-24T00:00:00-08:00</published><updated>2022-02-24T00:00:00-08:00</updated><id>http://kinnaman.net/web-development/2022/02/24/webdev</id><content type="html" xml:base="http://kinnaman.net/web-development/2022/02/24/webdev.html"><![CDATA[<p>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they’re curious about web development. It is loosely based off of university code camps syllabi.</p>
 
 <p>I used many of these same resources when I taught myself and friends how to do simple web development. Be sure to use search engines, forums, mentors, and online communities when you run into trouble.</p>
 
@@ -18,44 +18,44 @@ MacOS: 4GB RAM, 10GB+ storage</p>
 
 <h3 id="overview-subjects-languages-and-topics">Overview: Subjects, Languages, and Topics</h3>
 
-<p><strong>Concepts</strong> <br />
-Searches and Sorts <br />
-Performance <br />
-Time Complexity <br />
-Big O Notation <br />
-Data Structures <br />
-Responsive Design <br />
-Progressive Web Applications (PWAs) <br />
-Local Storage, Session Storage, IndexedDB <br />
-MongoDB <br />
-User Authentication <br />
-Template Engines <br />
-MERN Stack &amp; Alternative Stacks <br />
-Client-Server Model <br />
-API <br />
-Rest <br />
-HTTP Request Methods <br />
-Heroku <br />
-Git <br />
-Github &amp; Github Pages <br />
-Shell Scripting <br />
-Unit Testing <br />
-Lintin <br />
-Continuous Integration <br />
-Amazon Web Services and Cloud Computing Services <br />
+<p><strong>Concepts and Tools</strong> <br />
+<a href="https://quizlet.com/206140088/types-of-searches-and-sorts-ap-computer-science-flash-cards/">Searches and Sorts</a> <br />
+<a href="https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor/Performance_analysis">Performance</a> <br />
+<a href="https://webrewrite.com/sorting-algorithms-and-their-time-complexities/">Time Complexity</a> <br />
+<a href="https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation">Big O Notation</a> <br />
+<a href="https://www.geeksforgeeks.org/data-structures/">Data Structures</a> <br />
+<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design">Responsive Design</a> <br />
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">Progressive Web Applications</a> (PWAs) <br />
+<a href="https://www.mydatahack.com/replacing-local-storage-with-indexeddb/">Local Storage, Session Storage, IndexedDB</a> <br />
+<a href="https://www.mongodb.com/">MongoDB</a> <br />
+<a href="https://expertinsights.com/insights/top-10-user-authentication-and-access-management-solutions/">User Authentication</a> <br />
+<a href="https://colorlib.com/wp/top-templating-engines-for-javascript/">Template Engines</a> <br />
+<a href="https://www.mongodb.com/mern-stack">MERN Stack</a> &amp; Alternative Stacks <br />
+<a href="https://www.geeksforgeeks.org/client-server-model/">Client-Server Model</a> <br />
+<a href="https://www.ibm.com/cloud/learn/api">API</a> <br />
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">HTTP Request Methods</a> <br />
+<a href="https://www.heroku.com/">Heroku</a> <br />
+<a href="https://about.gitlab.com/images/press/git-cheat-sheet.pdf">Git</a> <br />
+<a href="https://pages.github.com/">Github &amp; Github Pages</a> <br />
+<a href="https://www.purdue.edu/hla/sites/varalalab/wp-content/uploads/sites/20/2022/02/HORT530_Lecture5_2022.pdf">Shell Scripting</a> <br />
+<a href="https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm">Unit Testing</a> <br />
+<a href="https://www.perforce.com/blog/qac/what-lint-code-and-why-linting-important">Linting</a> <br />
+<a href="https://aws.amazon.com/devops/continuous-integration/">Continuous Integration</a> <br />
+<a href="https://aws.amazon.com/getting-started/hands-on/">Amazon Web Services and Cloud Computing Services</a> <br />
  <br />
 <strong>Languages &amp; APIs</strong> <br />
-HTML/CSS <br />
-React.js <br />
-Javascript/jQuery <br />
-C# <br />
-Python <br />
-Java <br />
-MySQL <br />
-JSON <br />
-AJAX (Fetch API) <br />
-GraphQL <br />
-Bootstrap</p>
+<a href="https://developer.mozilla.org/en-US/docs/Web">HTML/CSS/Javascript</a> <br />
+<a href="https://reactjs.org/docs/getting-started.html">React.js</a> <br />
+<a href="https://www.w3schools.com/jquery/">jQuery</a> <br />
+<a href="https://www.geeksforgeeks.org/c-sharp-tutorial/">C#</a> <br />
+<a href="https://wiki.python.org/moin/BeginnersGuide">Python</a> <br />
+<a href="https://dev.java/learn/">Java</a> <br />
+<a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL</a> <br />
+<a href="https://www.json.org/json-en.html">JSON</a> <br />
+<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX">AJAX</a> (Fetch API) <br />
+<a href="https://graphql.org/learn/">GraphQL</a> <br />
+<a href="https://getbootstrap.com/">Bootstrap</a>
+<a href="https://restfulapi.net/">Rest</a> \</p>
 
 <h4 id="free-digital-media-tools">Free Digital Media Tools</h4>
 <p>It is useful, though not necessary, to know how to create and edit digital media. Popular programs often have free alternatives that are great to learn and practice with. These include: Inkscape, Kdenlive, Blender, and Gimp.</p>]]></content><author><name></name></author><category term="web-development" /><summary type="html"><![CDATA[Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they’re curious about web development. It is loosely based off of university code camps syllabi.]]></summary></entry><entry><title type="html">Great Books of the Western World</title><link href="http://kinnaman.net/gbww/literature/reading/self-education/2022/02/22/gbww.html" rel="alternate" type="text/html" title="Great Books of the Western World" /><published>2022-02-22T00:00:00-08:00</published><updated>2022-02-22T00:00:00-08:00</updated><id>http://kinnaman.net/gbww/literature/reading/self-education/2022/02/22/gbww</id><content type="html" xml:base="http://kinnaman.net/gbww/literature/reading/self-education/2022/02/22/gbww.html"><![CDATA[<p>Former president of Harvard University, Charles Eliot, claimed people could receive a liberal education by reading 15 minutes a day. So he decided to make a serialized list of works for those interested to learn. He compiled <em>The Harvard Classics</em> and advertised the anthology with great success. This directly inspired  Mortimer J Adler and John Erskine at Columbia University to make an improved collection called <em>The Great Books of the Western World</em> (GBWW). Although there are issues worthy of critique for the GBWW, it is an invaluable resource and worthy to explore from for those who believe in the value of continued education.</p>
@@ -67,6 +67,8 @@ Bootstrap</p>
 <p>Although the reading plan for the GBWW is flawed and the collection is direly missing important contributors to the Great Conversation, the collection is useful as a starting template to later tweak, add, and mold into a well rounded self-education. The individual works are not the issue of concern, just the limitations of the collection itself. This collection helped fuel my love of the liberal arts and piqued my interest in academia at a young age. It very well could benefit others.</p>
 
 <p>I am sharing the works without additions, but I will later share a more robust and modern collection of works that are in the public domain. The links will be progressively added as there are over 500 works to find and create epubs for. The goal of this page is to have the entire collection available for all, easily downloadable.</p>
+
+<p>The best versions are found on sites like Amazon or shadow libraries. Which although shadow libraries are morally in the right, I cannot advocate for them or recommend how using a simple vpn would be sufficient for unlimited free access to books and scholarly works.</p>
 
 <h4 id="homer">Homer</h4>
 <ul>
@@ -846,15 +848,17 @@ Bootstrap</p>
 </ul>
 
 <h2 id="10-year-reading-plan">10 Year Reading Plan</h2>
-<p>The original reading plan: <a href="https://thinkingwest.com/10-year-reading-plan/">Link</a></p>]]></content><author><name></name></author><category term="gbww" /><category term="literature" /><category term="reading" /><category term="self-education" /><summary type="html"><![CDATA[Former president of Harvard University, Charles Eliot, claimed people could receive a liberal education by reading 15 minutes a day. So he decided to make a serialized list of works for those interested to learn. He compiled The Harvard Classics and advertised the anthology with great success. This directly inspired Mortimer J Adler and John Erskine at Columbia University to make an improved collection called The Great Books of the Western World (GBWW). Although there are issues worthy of critique for the GBWW, it is an invaluable resource and worthy to explore from for those who believe in the value of continued education.]]></summary></entry><entry><title type="html">Skyrim on Linux</title><link href="http://kinnaman.net/2022/02/12/Skyrim.html" rel="alternate" type="text/html" title="Skyrim on Linux" /><published>2022-02-12T16:01:00-08:00</published><updated>2022-02-12T16:01:00-08:00</updated><id>http://kinnaman.net/2022/02/12/Skyrim</id><content type="html" xml:base="http://kinnaman.net/2022/02/12/Skyrim.html"><![CDATA[<p>Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop’s integrated graphics, it was more than playable on my desktop’s integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great.</p>
+<p>The original reading plan: <a href="https://thinkingwest.com/10-year-reading-plan/">Link</a></p>]]></content><author><name></name></author><category term="gbww" /><category term="literature" /><category term="reading" /><category term="self-education" /><summary type="html"><![CDATA[Former president of Harvard University, Charles Eliot, claimed people could receive a liberal education by reading 15 minutes a day. So he decided to make a serialized list of works for those interested to learn. He compiled The Harvard Classics and advertised the anthology with great success. This directly inspired Mortimer J Adler and John Erskine at Columbia University to make an improved collection called The Great Books of the Western World (GBWW). Although there are issues worthy of critique for the GBWW, it is an invaluable resource and worthy to explore from for those who believe in the value of continued education.]]></summary></entry><entry><title type="html">Skyrim on Linux</title><link href="http://kinnaman.net/2022/02/12/Skyrim.html" rel="alternate" type="text/html" title="Skyrim on Linux" /><published>2022-02-12T16:01:00-08:00</published><updated>2022-02-12T16:01:00-08:00</updated><id>http://kinnaman.net/2022/02/12/Skyrim</id><content type="html" xml:base="http://kinnaman.net/2022/02/12/Skyrim.html"><![CDATA[<p>Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents.</p>
+
+<p>The only error after set up is tabbing out of game causes a freeze.</p>
 
 <ol>
   <li>Download the game, wine, and wine tools.</li>
 </ol>
 
-<p><code>$ sudo apt install wine playonlinux</code></p>
+<p><code>$ sudo apt install wine winetricks</code></p>
 
 <ol>
-  <li>Run playonlinux and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact</code>, and <code>vcrun2019</code> installed.</li>
-  <li>Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> to launch the game may be needed if not running the game through steam. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall.</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop’s integrated graphics, it was more than playable on my desktop’s integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great.]]></summary></entry></feed>
+  <li>Run <code>winetricks</code> and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact64</code>, and <code>vcrun2019</code> installed.</li>
+  <li>Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> are required to launch the game. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall.</li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents.]]></summary></entry></feed>

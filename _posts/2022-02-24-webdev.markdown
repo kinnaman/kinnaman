@@ -23,44 +23,44 @@ If you have never approached programming before, these are extremely beginner fr
 
 ### Overview: Subjects, Languages, and Topics
 
-**Concepts** \
-Searches and Sorts \
-Performance \
-Time Complexity \
-Big O Notation \
-Data Structures \
-Responsive Design \
-Progressive Web Applications (PWAs) \
-Local Storage, Session Storage, IndexedDB \
-MongoDB \
-User Authentication \
-Template Engines \
-MERN Stack & Alternative Stacks \
-Client-Server Model \
-API \
-Rest \
-HTTP Request Methods \
-Heroku \
-Git \
-Github & Github Pages \
-Shell Scripting \
-Unit Testing \
-Lintin \
-Continuous Integration \
-Amazon Web Services and Cloud Computing Services \
+**Concepts and Tools** \
+[Searches and Sorts](https://quizlet.com/206140088/types-of-searches-and-sorts-ap-computer-science-flash-cards/) \
+[Performance](https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor/Performance_analysis) \
+[Time Complexity](https://webrewrite.com/sorting-algorithms-and-their-time-complexities/) \
+[Big O Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation) \
+[Data Structures](https://www.geeksforgeeks.org/data-structures/) \
+[Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) \
+[Progressive Web Applications](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) (PWAs) \
+[Local Storage, Session Storage, IndexedDB](https://www.mydatahack.com/replacing-local-storage-with-indexeddb/) \
+[MongoDB](https://www.mongodb.com/) \
+[User Authentication](https://expertinsights.com/insights/top-10-user-authentication-and-access-management-solutions/) \
+[Template Engines](https://colorlib.com/wp/top-templating-engines-for-javascript/) \
+[MERN Stack](https://www.mongodb.com/mern-stack) & Alternative Stacks \
+[Client-Server Model](https://www.geeksforgeeks.org/client-server-model/) \
+[API](https://www.ibm.com/cloud/learn/api) \
+[HTTP Request Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) \
+[Heroku](https://www.heroku.com/) \
+[Git](https://about.gitlab.com/images/press/git-cheat-sheet.pdf) \
+[Github & Github Pages](https://pages.github.com/) \
+[Shell Scripting](https://www.purdue.edu/hla/sites/varalalab/wp-content/uploads/sites/20/2022/02/HORT530_Lecture5_2022.pdf) \
+[Unit Testing](https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm) \
+[Linting](https://www.perforce.com/blog/qac/what-lint-code-and-why-linting-important) \
+[Continuous Integration](https://aws.amazon.com/devops/continuous-integration/) \
+[Amazon Web Services and Cloud Computing Services](https://aws.amazon.com/getting-started/hands-on/) \
  \
 **Languages & APIs** \
-HTML/CSS \
-React.js \
-Javascript/jQuery \
-C# \
-Python \
-Java \
-MySQL \
-JSON \
-AJAX (Fetch API) \
-GraphQL \
-Bootstrap 
+[HTML/CSS/Javascript](https://developer.mozilla.org/en-US/docs/Web) \
+[React.js](https://reactjs.org/docs/getting-started.html) \
+[jQuery](https://www.w3schools.com/jquery/) \
+[C#](https://www.geeksforgeeks.org/c-sharp-tutorial/) \
+[Python](https://wiki.python.org/moin/BeginnersGuide) \
+[Java](https://dev.java/learn/) \
+[MySQL](https://dev.mysql.com/doc/refman/8.0/en/) \
+[JSON](https://www.json.org/json-en.html) \
+[AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX) (Fetch API) \
+[GraphQL](https://graphql.org/learn/) \
+[Bootstrap](https://getbootstrap.com/)
+[Rest](https://restfulapi.net/) \
 
 #### Free Digital Media Tools
 It is useful, though not necessary, to know how to create and edit digital media. Popular programs often have free alternatives that are great to learn and practice with. These include: Inkscape, Kdenlive, Blender, and Gimp.

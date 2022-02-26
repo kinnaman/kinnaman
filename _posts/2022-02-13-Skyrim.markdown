@@ -4,11 +4,13 @@ title: "Skyrim on Linux"
 date: 2022-02-13 00:01:00
 catagories: gaming linux
 ---
-Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop's integrated graphics, it was more than playable on my desktop's integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great.
+Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents. 
+
+The only error after set up is tabbing out of game causes a freeze.
 
 1. Download the game, wine, and wine tools.
 
-<code>$ sudo apt install wine playonlinux</code>
+<code>$ sudo apt install wine winetricks</code>
 
-2. Run playonlinux and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact</code>, and <code>vcrun2019</code> installed.
-3. Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> to launch the game may be needed if not running the game through steam. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall.
+2. Run <code>winetricks</code> and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact64</code>, and <code>vcrun2019</code> installed.
+3. Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> are required to launch the game. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall.

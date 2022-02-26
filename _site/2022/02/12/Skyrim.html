@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v4.2.1" />
 <meta property="og:title" content="Skyrim on Linux" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop’s integrated graphics, it was more than playable on my desktop’s integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great." />
-<meta property="og:description" content="Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop’s integrated graphics, it was more than playable on my desktop’s integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great." />
+<meta name="description" content="Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents." />
+<meta property="og:description" content="Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents." />
 <link rel="canonical" href="http://kinnaman.net/2022/02/12/Skyrim.html" />
 <meta property="og:url" content="http://kinnaman.net/2022/02/12/Skyrim.html" />
 <meta property="og:site_name" content="Kinnaman" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Skyrim on Linux" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-12T16:01:00-08:00","datePublished":"2022-02-12T16:01:00-08:00","description":"Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop’s integrated graphics, it was more than playable on my desktop’s integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great.","headline":"Skyrim on Linux","mainEntityOfPage":{"@type":"WebPage","@id":"http://kinnaman.net/2022/02/12/Skyrim.html"},"url":"http://kinnaman.net/2022/02/12/Skyrim.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-02-12T16:01:00-08:00","datePublished":"2022-02-12T16:01:00-08:00","description":"Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents.","headline":"Skyrim on Linux","mainEntityOfPage":{"@type":"WebPage","@id":"http://kinnaman.net/2022/02/12/Skyrim.html"},"url":"http://kinnaman.net/2022/02/12/Skyrim.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://kinnaman.net/feed.xml" title="Kinnaman" /></head>
 <body><header class="site-header" role="banner">
@@ -47,17 +47,19 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Setting up Skyrim on Linux is mightily easy. Although not playable on my old laptop’s integrated graphics, it was more than playable on my desktop’s integrated graphics. Be sure to purchase the game and do not torrent the CODEX copy from Pirate Bay, even though it would work just as well. The only error after set up is tabbing away from Skyrim causes the game to freeze, but in game it works great.</p>
+    <p>Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents.</p>
+
+<p>The only error after set up is tabbing out of game causes a freeze.</p>
 
 <ol>
   <li>Download the game, wine, and wine tools.</li>
 </ol>
 
-<p><code>$ sudo apt install wine playonlinux</code></p>
+<p><code>$ sudo apt install wine winetricks</code></p>
 
 <ol>
-  <li>Run playonlinux and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact</code>, and <code>vcrun2019</code> installed.</li>
-  <li>Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> to launch the game may be needed if not running the game through steam. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall.</li>
+  <li>Run <code>winetricks</code> and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact64</code>, and <code>vcrun2019</code> installed.</li>
+  <li>Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> are required to launch the game. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall.</li>
 </ol>
 
   </div><a class="u-url" href="/2022/02/12/Skyrim.html" hidden></a>
