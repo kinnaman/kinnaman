@@ -61,6 +61,7 @@ If you have never approached programming before, these are extremely beginner fr
 [GraphQL](https://graphql.org/learn/) \
 [Bootstrap](https://getbootstrap.com/)
 [Rest](https://restfulapi.net/) 
+<!-- NPM, webpack, threejs -->
 
 #### Free Digital Media Tools
 It is useful, though not necessary, to know how to create and edit digital media. Popular programs often have free alternatives that are great to learn and practice with. These include: Inkscape, Kdenlive, Blender, and Gimp.
