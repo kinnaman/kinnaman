@@ -10,11 +10,19 @@
 <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" />
 <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-gray?logo=javascript&logoColor=F7DF1E&style=for-the-badge" />
 <img alt="Webpack" src="https://img.shields.io/badge/Webpack-logoColor?logo=webpack&logoColor=white&style=for-the-badge" />
+<img alt=Shopify" src="https://img.shields.io/badge/Shopify-7AB55C?logo=shopify&logoColor=white&style=for-the-badge" />
+<img alt=GIMP" src="https://img.shields.io/badge/GIMP-5C5543?logo=gimp&logoColor=white&style=for-the-badge" />
+<img alt=Blender" src="https://img.shields.io/badge/Blender-F5792A?logo=blender&logoColor=white&style=for-the-badge" />
+<img alt=React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
+<img alt=C++" src="https://img.shields.io/badge/C++-00599C?logo=c%2b%2b&logoColor=white&style=for-the-badge" />
 </p>
 </div>
 
 # Profile Summation
-Hello, I'm a IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message. 
+Hello, I am an IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message. 
+
+Personal Blog: [blog.kinnaman.net](blog.kinnaman.net)
+Portfolio:		[portfolio.kinnaman.net](portfolio.kinnaman.net)
 
 <p align="left">
 <img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=kinnaman">
