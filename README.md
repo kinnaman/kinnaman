@@ -22,6 +22,7 @@
 Hello, I am an IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message. 
 
 Personal Blog: [blog.kinnaman.net](blog.kinnaman.net)
+
 Portfolio:		[portfolio.kinnaman.net](portfolio.kinnaman.net)
 
 <p align="left">
