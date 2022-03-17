@@ -1,5 +1,5 @@
 ---
-title:	"Jekyll + NPM + Bootstrap + Webpack + Bootstrap"
+title:	"Jekyll + NPM + Webpack + Bootstrap"
 date:		2022-03-17
 layout:	post
 catagories: web-dev tech
