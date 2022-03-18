@@ -89,7 +89,7 @@ module.exports = {
 	entry: ".src/index.js",
 	output: {
 		filename: "main.js"
-		path: paath.join(__direname, "./src/assets/js"),
+		path: path.join(__direname, "./src/assets/js"),
 	}
 };
 ```
