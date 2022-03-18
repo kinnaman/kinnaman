@@ -23,9 +23,7 @@
 # Profile Summation
 Hello, I am an IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message. 
 
-Personal Blog: [blog.kinnaman.net](blog.kinnaman.net)
-
-Portfolio:		[portfolio.kinnaman.net](portfolio.kinnaman.net)
+Personal Blog: [blog.kinnaman.net](https://blog.kinnaman.net)
 
 <p align="left">
 <img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=kinnaman">
