@@ -64,7 +64,7 @@ First we're going to edit the <code>package.json</code> we generated with <code>
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	 "build":
+	 "build": "webpack"
   },
   "keywords": [],
   "author": "",
