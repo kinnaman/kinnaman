@@ -1,5 +1,5 @@
 ---
-title:	"Jekyll + NPM + Webpack + Bootstrap"
+title:	"Sane Jekyll & NPM Setup"
 date:		2022-03-17
 layout:	post
 catagories: web-dev tech
@@ -52,6 +52,8 @@ Next, move the files and directories generated so they resemble this map. Create
 │       └── _variables.scss
 └── webpack.config.js
 ```
+#### Config Set-Up
+
 First we're going to edit the <code>package.json</code> we generated with <code>npm init</code>. We need it to include <code>"build":</code> under scripts. Be sure to remember the commas.
 
 ```
@@ -95,11 +97,28 @@ module.exports = {
 Finally the last config to edit is the <code>_config.yml</code> to include the following in order to load stylesheets from node_modules.
 
 ```
+destination: dist
+source: src
 sass:
 	load_paths:
 		- _sass
-		- node_modules
+```
+We will add bootstrap in this example, as if we added it through <code>npm</code> by creating a symbolic link to bootstrap from the <code>_sass</code> directory.
+
+```
+$ cd src/_sass/
+$ ln -s ../../node_modules/bootstrap/scss bootstrap
 ```
 
-If everything is properly organized, it should all load and run properly.
+If everything is properly organized, it should all load and run properly. Before committing to github, be sure to properly add to your <code>.gitignore</code>
+
+```
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+node_modules
+dist/
+src/_sass/bootstrap/
+```
 
