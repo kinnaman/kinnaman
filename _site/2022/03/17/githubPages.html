@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Sane Jekyll &amp; NPM Setup | Kinnaman</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Sane Jekyll &amp; NPM Setup" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Jekyll’s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well." />
+<meta property="og:description" content="Jekyll’s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well." />
+<link rel="canonical" href="http://kinnaman.net/2022/03/17/githubPages.html" />
+<meta property="og:url" content="http://kinnaman.net/2022/03/17/githubPages.html" />
+<meta property="og:site_name" content="Kinnaman" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-17T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Sane Jekyll &amp; NPM Setup" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-17T00:00:00-07:00","datePublished":"2022-03-17T00:00:00-07:00","description":"Jekyll’s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.","headline":"Sane Jekyll &amp; NPM Setup","mainEntityOfPage":{"@type":"WebPage","@id":"http://kinnaman.net/2022/03/17/githubPages.html"},"url":"http://kinnaman.net/2022/03/17/githubPages.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://kinnaman.net/feed.xml" title="Kinnaman" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Kinnaman</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Sane Jekyll &amp; NPM Setup</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-03-17T00:00:00-07:00" itemprop="datePublished">Mar 17, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Jekyll’s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.</p>
+
+<p>The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependancies.</p>
+
+<h4 id="setting-up-the-environment">Setting Up the Environment</h4>
+<p>First be sure to have Jekyll and NPM installed on your computer. Once that is done, create the your working directory by using the following.</p>
+
+<p>First create the project directory with Jekyll.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll new projectname
+$ cd projectname
+</code></pre></div></div>
+
+<p>Next set and install any node_modules you plan to use.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ npm init -y
+$ npm install webpack-demo webpack-cli --save-dev
+</code></pre></div></div>
+
+<h4 id="file-structure">File Structure</h4>
+<p>Next, move the files and directories generated so they resemble this map. Create directories as needed if they do not already exit.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _config.yml
+├── _site
+├── Gemfile
+├── Gemfile.lock
+├── node_modules
+├── package.json
+├── package-lock.json
+├── src
+│   ├── 404.html
+│   ├── about.markdown
+│   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   └── js
+│   │       └── main.js
+│   ├── index.js
+│   ├── index.markdown
+│   ├── _layouts
+│   │   └── default.html
+│   ├── _posts
+│   └── _sass
+│       ├── main.css
+│       └── _variables.scss
+└── webpack.config.js
+</code></pre></div></div>
+<h4 id="config-set-up">Config Set-Up</h4>
+
+<p>First we’re going to edit the <code>package.json</code> we generated with <code>npm init</code>. We need it to include <code>"build":</code> under scripts. Be sure to remember the commas.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "name": "projectname",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
+	 "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack-demo": "^1.0.0"
+  }
+}
+</code></pre></div></div>
+
+<p>Next Webpack’s <code>webpack.config.js</code> needs to be configured properly in order to input, build, then output to the <code>src</code> directory.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const path = require("path");
+
+module.exports = {
+	entry: ".src/index.js",
+	output: {
+		filename: "main.js"
+		path: path.join(__direname, "./src/assets/js"),
+	}
+};
+</code></pre></div></div>
+
+<p>Finally the last config to edit is the <code>_config.yml</code> to include the following in order to load stylesheets from node_modules.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source: src
+</code></pre></div></div>
+<p>We will add bootstrap in this example, as if we added it through <code>npm</code> by creating a symbolic link to bootstrap from the <code>_sass</code> directory.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd src/_sass/
+$ ln -s ../../node_modules/bootstrap/scss bootstrap
+</code></pre></div></div>
+
+<p>If everything is properly organized, it should all load and run properly. Before committing to github, be sure to properly add to your <code>.gitignore</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+node_modules
+</code></pre></div></div>
+
+
+  </div><a class="u-url" href="/2022/03/17/githubPages.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Kinnaman</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Kinnaman</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/kinnaman"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">kinnaman</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is the personal blog of Morgan Kinnaman.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

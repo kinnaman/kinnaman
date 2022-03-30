@@ -4,7 +4,9 @@ date:		2022-03-17
 layout:	post
 catagories: web-dev tech
 ---
-Due to default behavior of NPM and Jekyll, adding <code>node_modules</code> to Jekyll's <code>include:</code> section of its config causes the site size to balloon in size. In order to keep unnecessary bulk down in GitHub repos or the hosting server, a few precursory steps can remedy the problems arisen from using NPM with Jekyll. For this example, we're using Bootstrap downloaded through NPM and including it in Jekyll's safe mode.The JavaScript from <code>node_modules</code> will be slimmed by Webpack while the stylesheets will be called through Jekyll config.
+Jekyll's developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.
+
+The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependancies.
 
 #### Setting Up the Environment
 First be sure to have Jekyll and NPM installed on your computer. Once that is done, create the your working directory by using the following.
@@ -18,7 +20,6 @@ $ cd projectname
 Next set and install any node_modules you plan to use.
 ```
 $ npm init -y
-$ npm install bootstrap
 $ npm install webpack-demo webpack-cli --save-dev
 ```
 
@@ -28,7 +29,7 @@ Next, move the files and directories generated so they resemble this map. Create
 
 ```
 ├── _config.yml
-├── dist
+├── _site
 ├── Gemfile
 ├── Gemfile.lock
 ├── node_modules
@@ -97,11 +98,7 @@ module.exports = {
 Finally the last config to edit is the <code>_config.yml</code> to include the following in order to load stylesheets from node_modules.
 
 ```
-destination: dist
 source: src
-sass:
-	load_paths:
-		- _sass
 ```
 We will add bootstrap in this example, as if we added it through <code>npm</code> by creating a symbolic link to bootstrap from the <code>_sass</code> directory.
 
@@ -118,7 +115,5 @@ If everything is properly organized, it should all load and run properly. Before
 .jekyll-metadata
 vendor
 node_modules
-dist/
-src/_sass/bootstrap/
 ```
 

@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://kinnaman.net/feed.xml" rel="self" type="application/atom+xml" /><link href="http://kinnaman.net/" rel="alternate" type="text/html" /><updated>2022-02-25T19:12:13-08:00</updated><id>http://kinnaman.net/feed.xml</id><title type="html">Kinnaman</title><subtitle>This is the personal blog of Morgan Kinnaman.</subtitle><entry><title type="html">Web Development Resources</title><link href="http://kinnaman.net/web-development/2022/02/24/webdev.html" rel="alternate" type="text/html" title="Web Development Resources" /><published>2022-02-24T00:00:00-08:00</published><updated>2022-02-24T00:00:00-08:00</updated><id>http://kinnaman.net/web-development/2022/02/24/webdev</id><content type="html" xml:base="http://kinnaman.net/web-development/2022/02/24/webdev.html"><![CDATA[<p>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they’re curious about web development. It is loosely based off of university code camps syllabi.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://kinnaman.net/feed.xml" rel="self" type="application/atom+xml" /><link href="http://kinnaman.net/" rel="alternate" type="text/html" /><updated>2022-03-29T18:03:33-07:00</updated><id>http://kinnaman.net/feed.xml</id><title type="html">Kinnaman</title><subtitle>This is the personal blog of Morgan Kinnaman.</subtitle><entry><title type="html">Virtue</title><link href="http://kinnaman.net/philosophy/lifestyle/2022/03/29/virtues.html" rel="alternate" type="text/html" title="Virtue" /><published>2022-03-29T00:00:00-07:00</published><updated>2022-03-29T00:00:00-07:00</updated><id>http://kinnaman.net/philosophy/lifestyle/2022/03/29/virtues</id><content type="html" xml:base="http://kinnaman.net/philosophy/lifestyle/2022/03/29/virtues.html"><![CDATA[<p>Virtue is a habit and like all habits it can be conditioned. Below are the most important virtues for me. It is adopted partially from the 13 virtues of <a href="[http://www.thirteenvirtues.com/]">Benjamin Franklin</a>, <a href="[https://en.wikipedia.org/wiki/Virtue#Buddhism]">Buddhist virtues</a>, and the 7 <a href="[https://en.wikipedia.org/wiki/Seven_virtues]">christian virtues</a> I was taught as a child.</p>
+
+<h4 id="personal-virtues">Personal Virtues</h4>
+<ul>
+  <li><strong>Temperance.</strong> Eat not to dullness; drink not to elevation.</li>
+  <li><strong>Silence.</strong> Speak not but what may benefit others or yourself; avoid trifling conversation.</li>
+  <li><strong>Resolution.</strong> Resolve to perform what you ought; perform without fail what you resolve.</li>
+  <li><strong>Frugality.</strong> Make no expense but to do good to others or yourself; i.e., waste nothing.</li>
+  <li><strong>Industry.</strong> Lose no time; be always employed in something useful</li>
+  <li><strong>Sincerity.</strong> Use no hurtful deceit; think innocently and justly, and, if you speak, speak accordingly.</li>
+  <li><strong>Moderation.</strong> Avoid extremes; forbear resenting injuries so much as you think they deserve.</li>
+  <li><strong>Cleanliness.</strong> Tolerate no uncleanliness in body, clothes, or habitation.</li>
+  <li><strong>Equanimity.</strong> Be not disturbed at trifles, or at accidents common or unavoidable. Learn to accept both loss and gain with calm.</li>
+  <li><strong>Fortitude.</strong> Have courage in adversity. Discourage not due to difficulty, fear, or pain.</li>
+  <li><strong>Kindness.</strong> Think and act with empathy towards others.</li>
+</ul>
+
+<!-- https://isi.org/intercollegiate-review/the-virtues-of-postmodernity/-->]]></content><author><name></name></author><category term="philosophy" /><category term="lifestyle" /><summary type="html"><![CDATA[Virtue is a habit and like all habits it can be conditioned. Below are the most important virtues for me. It is adopted partially from the 13 virtues of Benjamin Franklin, Buddhist virtues, and the 7 christian virtues I was taught as a child. Personal Virtues Temperance. Eat not to dullness; drink not to elevation. Silence. Speak not but what may benefit others or yourself; avoid trifling conversation. Resolution. Resolve to perform what you ought; perform without fail what you resolve. Frugality. Make no expense but to do good to others or yourself; i.e., waste nothing. Industry. Lose no time; be always employed in something useful Sincerity. Use no hurtful deceit; think innocently and justly, and, if you speak, speak accordingly. Moderation. Avoid extremes; forbear resenting injuries so much as you think they deserve. Cleanliness. Tolerate no uncleanliness in body, clothes, or habitation. Equanimity. Be not disturbed at trifles, or at accidents common or unavoidable. Learn to accept both loss and gain with calm. Fortitude. Have courage in adversity. Discourage not due to difficulty, fear, or pain. Kindness. Think and act with empathy towards others.]]></summary></entry><entry><title type="html">Sane Jekyll &amp;amp; NPM Setup</title><link href="http://kinnaman.net/2022/03/17/githubPages.html" rel="alternate" type="text/html" title="Sane Jekyll &amp;amp; NPM Setup" /><published>2022-03-17T00:00:00-07:00</published><updated>2022-03-17T00:00:00-07:00</updated><id>http://kinnaman.net/2022/03/17/githubPages</id><content type="html" xml:base="http://kinnaman.net/2022/03/17/githubPages.html"><![CDATA[<p>Jekyll’s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.</p>
+
+<p>The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependancies.</p>
+
+<h4 id="setting-up-the-environment">Setting Up the Environment</h4>
+<p>First be sure to have Jekyll and NPM installed on your computer. Once that is done, create the your working directory by using the following.</p>
+
+<p>First create the project directory with Jekyll.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll new projectname
+$ cd projectname
+</code></pre></div></div>
+
+<p>Next set and install any node_modules you plan to use.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ npm init -y
+$ npm install webpack-demo webpack-cli --save-dev
+</code></pre></div></div>
+
+<h4 id="file-structure">File Structure</h4>
+<p>Next, move the files and directories generated so they resemble this map. Create directories as needed if they do not already exit.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _config.yml
+├── _site
+├── Gemfile
+├── Gemfile.lock
+├── node_modules
+├── package.json
+├── package-lock.json
+├── src
+│   ├── 404.html
+│   ├── about.markdown
+│   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   └── js
+│   │       └── main.js
+│   ├── index.js
+│   ├── index.markdown
+│   ├── _layouts
+│   │   └── default.html
+│   ├── _posts
+│   └── _sass
+│       ├── main.css
+│       └── _variables.scss
+└── webpack.config.js
+</code></pre></div></div>
+<h4 id="config-set-up">Config Set-Up</h4>
+
+<p>First we’re going to edit the <code>package.json</code> we generated with <code>npm init</code>. We need it to include <code>"build":</code> under scripts. Be sure to remember the commas.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "name": "projectname",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
+	 "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack-demo": "^1.0.0"
+  }
+}
+</code></pre></div></div>
+
+<p>Next Webpack’s <code>webpack.config.js</code> needs to be configured properly in order to input, build, then output to the <code>src</code> directory.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const path = require("path");
+
+module.exports = {
+	entry: ".src/index.js",
+	output: {
+		filename: "main.js"
+		path: path.join(__direname, "./src/assets/js"),
+	}
+};
+</code></pre></div></div>
+
+<p>Finally the last config to edit is the <code>_config.yml</code> to include the following in order to load stylesheets from node_modules.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source: src
+</code></pre></div></div>
+<p>We will add bootstrap in this example, as if we added it through <code>npm</code> by creating a symbolic link to bootstrap from the <code>_sass</code> directory.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd src/_sass/
+$ ln -s ../../node_modules/bootstrap/scss bootstrap
+</code></pre></div></div>
+
+<p>If everything is properly organized, it should all load and run properly. Before committing to github, be sure to properly add to your <code>.gitignore</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+node_modules
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[Jekyll’s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.]]></summary></entry><entry><title type="html">Web Development Resources</title><link href="http://kinnaman.net/web-development/2022/02/24/webdev.html" rel="alternate" type="text/html" title="Web Development Resources" /><published>2022-02-24T00:00:00-08:00</published><updated>2022-02-24T00:00:00-08:00</updated><id>http://kinnaman.net/web-development/2022/02/24/webdev</id><content type="html" xml:base="http://kinnaman.net/web-development/2022/02/24/webdev.html"><![CDATA[<p>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they’re curious about web development. It is loosely based off of university code camps syllabi.</p>
 
 <p>I used many of these same resources when I taught myself and friends how to do simple web development. Be sure to use search engines, forums, mentors, and online communities when you run into trouble.</p>
 
@@ -30,7 +148,7 @@ MacOS: 4GB RAM, 10GB+ storage</p>
 <a href="https://www.mongodb.com/">MongoDB</a> <br />
 <a href="https://expertinsights.com/insights/top-10-user-authentication-and-access-management-solutions/">User Authentication</a> <br />
 <a href="https://colorlib.com/wp/top-templating-engines-for-javascript/">Template Engines</a> <br />
-<a href="https://www.mongodb.com/mern-stack">MERN Stack</a> &amp; Alternative Stacks <br />
+<a href="https://www.mongodb.com/mern-stack">MERN Stack</a> &amp; <a href="https://fullscale.io/blog/top-5-tech-stacks/">Alternative Stacks</a> <br />
 <a href="https://www.geeksforgeeks.org/client-server-model/">Client-Server Model</a> <br />
 <a href="https://www.ibm.com/cloud/learn/api">API</a> <br />
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">HTTP Request Methods</a> <br />
@@ -55,7 +173,8 @@ MacOS: 4GB RAM, 10GB+ storage</p>
 <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX">AJAX</a> (Fetch API) <br />
 <a href="https://graphql.org/learn/">GraphQL</a> <br />
 <a href="https://getbootstrap.com/">Bootstrap</a>
-<a href="https://restfulapi.net/">Rest</a> \</p>
+<a href="https://restfulapi.net/">Rest</a> 
+<!-- NPM, webpack, threejs --></p>
 
 <h4 id="free-digital-media-tools">Free Digital Media Tools</h4>
 <p>It is useful, though not necessary, to know how to create and edit digital media. Popular programs often have free alternatives that are great to learn and practice with. These include: Inkscape, Kdenlive, Blender, and Gimp.</p>]]></content><author><name></name></author><category term="web-development" /><summary type="html"><![CDATA[Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they’re curious about web development. It is loosely based off of university code camps syllabi.]]></summary></entry><entry><title type="html">Great Books of the Western World</title><link href="http://kinnaman.net/gbww/literature/reading/self-education/2022/02/22/gbww.html" rel="alternate" type="text/html" title="Great Books of the Western World" /><published>2022-02-22T00:00:00-08:00</published><updated>2022-02-22T00:00:00-08:00</updated><id>http://kinnaman.net/gbww/literature/reading/self-education/2022/02/22/gbww</id><content type="html" xml:base="http://kinnaman.net/gbww/literature/reading/self-education/2022/02/22/gbww.html"><![CDATA[<p>Former president of Harvard University, Charles Eliot, claimed people could receive a liberal education by reading 15 minutes a day. So he decided to make a serialized list of works for those interested to learn. He compiled <em>The Harvard Classics</em> and advertised the anthology with great success. This directly inspired  Mortimer J Adler and John Erskine at Columbia University to make an improved collection called <em>The Great Books of the Western World</em> (GBWW). Although there are issues worthy of critique for the GBWW, it is an invaluable resource and worthy to explore from for those who believe in the value of continued education.</p>
