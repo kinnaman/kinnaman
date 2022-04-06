@@ -21,6 +21,6 @@ Virtue is a habit and like all habits it can be conditioned. Below are the most 
 - **Kindness.** Think and act with empathy towards others.
 
 <!-- https://isi.org/intercollegiate-review/the-virtues-of-postmodernity/-->
-[13-virtues]:	[http://www.thirteenvirtues.com/]
-[2]:				[https://en.wikipedia.org/wiki/Seven_virtues]
-[buddism]:		[https://en.wikipedia.org/wiki/Virtue#Buddhism]
+[13-virtues]:	http://www.thirteenvirtues.com/
+[2]:				https://en.wikipedia.org/wiki/Seven_virtues
+[buddism]:		https://en.wikipedia.org/wiki/Virtue#Buddhism

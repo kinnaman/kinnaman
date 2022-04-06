@@ -4,7 +4,7 @@ title: "Skyrim on Linux"
 date: 2022-02-13 00:01:00
 catagories: gaming linux
 ---
-Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents. 
+Setting up Skyrim on Linux is mightily easy. And I cannot advise torrenting the CODEX copy from Pirate Bay if you want to test the game before purchase, even though CODEX has a reputation for quality safe game torrents, you can never be certain and illegal is illegal. 
 
 The only error after set up is tabbing out of game causes a freeze.
 
