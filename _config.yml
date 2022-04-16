@@ -24,7 +24,7 @@ mail: dean.kinnaman@gmail.com
 show_exerpts: true
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal blog of Morgan Kinnaman. I like to learn, 
-  create open source programs, tinkering with electronics, and 
+  create open source programs, tinker with electronics, and 
   the liberal arts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.kinnaman.net" # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,7 +35,6 @@ github_username:  kinnaman
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
