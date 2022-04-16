@@ -6,6 +6,10 @@ categories: minecraft gaming
 ---
 ![Minecraft Stand](https://i.imgur.com/SHBcGcI.jpg)
 
+This extremely simple design was made for my Minecraft Realm's trading zone. Use string to suspend the carpet when it is not above a fence or sign.
+
+### Materials List
+
 |Block Name|Quantity|
 |:--------:|-------:|
 |Barrel    |		 3|
@@ -18,4 +22,4 @@ categories: minecraft gaming
 |Oak Gate|	3|
 |String|	12|
 
-This extremely simple design was made for my Minecraft Realm's trading zone. Use string to suspend the carpet when it is not above a fence or sign.
+
