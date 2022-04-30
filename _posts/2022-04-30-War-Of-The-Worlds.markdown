@@ -1,12 +1,16 @@
 ---
 title: "War Of The Worlds - Book Review"
+layout: post
 date: 2022-04-30
 categories: book-review
 ---
-![War of the Worlds cover](https://imgur.com/uunptIS)
-**Rating - 5/5 || Warning: Spoilers**
+<img title="War of the Worlds" style="width: 50%; border: 3px solid black; display: block; margin-left: auto; margin-right: auto;" alt="War of the Worlds cover" src="https://imgur.com/uunptIS.jpg">
 
-The sci-fi classic, *War of the Worlds* by H.G. Wells is a sci-fi horror classic. It's a story of a Martian invasion narrated by an unnamed 19th century man in England. My first reading of this book was when I was a child in 2005. I scarce remembered it other than it was far different than the movie adaptation starring Tom Cruise. 
+<div class="rating" style="text-align:center">
+<b>Rating - 5/5 || Warning: Spoilers</b>
+</div>
+
+*War of the Worlds* by H.G. Wells is a sci-fi horror classic. It's a story of a Martian invasion narrated by an unnamed 19th century man in England. My first reading of this book was when I was a child in 2005. I scarce remembered it other than it was far different than the movie adaptation starring Tom Cruise. 
 
 The original book is far more interesting than the movie, having better characters, stronger themes, and the focus of the story on the protagonist's desire to find his wife out of love instead of desire to get rid of his kids. Man-childs may be relatable to many, but they are worthy of scorn and detract from an otherwise great premise. 
 
