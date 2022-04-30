@@ -2,11 +2,11 @@
 title:	"Sane Jekyll & NPM Setup"
 date:		2022-03-17
 layout:	post
-catagories: web-dev tech
+categories: web-dev tech
 ---
-Jekyll's developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is realitively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.
+Jekyll's developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is relatively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.
 
-The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependancies.
+The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependencies.
 
 #### Setting Up the Environment
 First be sure to have Jekyll and NPM installed on your computer. Once that is done, create the your working directory by using the following.
