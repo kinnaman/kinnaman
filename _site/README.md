@@ -20,9 +20,11 @@
 </div>
 
 # Profile Summation
-Hello, I am an IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message. 
+Hello, I am an IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message.
 
-Personal Blog: [blog.kinnaman.net](https://blog.kinnaman.net)
+This repository holds and hosts my personal blog [blog.kinnaman.net](https://blog.kinnaman.net) which is built using Jekyll. You can reach me at [contact@kinnaman.net](mailto:contact@kinnaman.net).
+
+Virtually all of my repositories I currently hold are filled with small scripts or static websites. I try to build most of my programs under the unix philosophy of smaller modular programs that serve a single purpose well. 
 
 <p align="left">
 <img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=kinnaman">
