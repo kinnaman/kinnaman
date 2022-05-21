@@ -4,7 +4,7 @@ layout: post
 date: 2022-04-30
 categories: book-review
 ---
-<img title="War of the Worlds" style="width: 50%; border: 3px solid black; display: block; margin-left: auto; margin-right: auto;" alt="War of the Worlds cover" src="https://imgur.com/uunptIS.jpg">
+<img title="War of the Worlds" style="width: 50%; border: 3px solid black; display: block; margin-left: auto; margin-right: auto;" alt="War of the Worlds cover" src="https://imagedelivery.net/puC7LbPnBkTV492a3YMtOA/2c8075cd-0a64-4b69-9dd9-5af422b04a00/public">
 
 <div class="rating" style="text-align:center">
 <b>Rating - 5/5 || Warning: Spoilers</b>

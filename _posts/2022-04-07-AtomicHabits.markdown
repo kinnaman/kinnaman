@@ -4,7 +4,7 @@ layout: post
 date: 2022-04-07
 categories: book-review
 ---
-<img title="Atomic Habits" style="width: 300px; border: 3px solid black; display: block; margin-left: auto; margin-right: auto;" alt="book cover of Atomic Habits" src="https://cdn2.penguin.com.au/covers/original/9781847941831.jpg">
+<img title="Atomic Habits" style="width: 300px; border: 3px solid black; display: block; margin-left: auto; margin-right: auto;" alt="book cover of Atomic Habits" src="https://imagedelivery.net/puC7LbPnBkTV492a3YMtOA/a51c9789-aa2f-48e5-38f9-f8ebb5cd3100/public">
 
 <div class="rating" style="text-align:center">
 <b>Rating - 2/5</b>
