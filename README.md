@@ -9,24 +9,21 @@
 <img alt="Linux" src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white&style=for-the-badge" />
 <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" />
 <img alt="Javascript" src="https://img.shields.io/badge/JavaScript-gray?logo=javascript&logoColor=F7DF1E&style=for-the-badge" />
-<img alt="Webpack" src="https://img.shields.io/badge/Webpack-logoColor?logo=webpack&logoColor=white&style=for-the-badge" />
+<!--img alt="Webpack" src="https://img.shields.io/badge/Webpack-logoColor?logo=webpack&logoColor=white&style=for-the-badge" /-->
 <!--img alt=Shopify" src="https://img.shields.io/badge/Shopify-7AB55C?logo=shopify&logoColor=white&style=for-the-badge" /-->
 <img alt=GIMP" src="https://img.shields.io/badge/GIMP-5C5543?logo=gimp&logoColor=white&style=for-the-badge" />
-<img alt=Blender" src="https://img.shields.io/badge/Blender-F5792A?logo=blender&logoColor=white&style=for-the-badge" />
-<img alt=React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
+<!--img alt=Blender" src="https://img.shields.io/badge/Blender-F5792A?logo=blender&logoColor=white&style=for-the-badge" /-->
+<!--img alt=React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge" /-->
 <img alt=C++" src="https://img.shields.io/badge/C++-00599C?logo=c%2b%2b&logoColor=white&style=for-the-badge" />
 <img alt="Inkscape" src="https://img.shields.io/badge/Inkscape-000000?logo=inkscape&logoColor=white&style=for-the-badge" />
 </p>
 </div>
 
+<img alt="github stats" style="margin-left: auto; margin-right: auto; display: block; max-width: 70%" src="https://github-readme-stats.vercel.app/api?username=kinnaman">
+
 # Profile Summation
-Hello, I am an IT Specialist with a passion for Free Open Source Software. Have an interesting project you need help with? Shoot me a message.
+Hello, I am an IT professional with a passion for Free Open Source Software.
 
-This repository holds and hosts my personal blog [blog.kinnaman.net](https://blog.kinnaman.net) which is built using Jekyll. You can reach me at [contact@kinnaman.net](mailto:contact@kinnaman.net).
+My personal blog is [kinnaman.net/blog/](https://www.kinnaman.net/blog/). You can reach me at [morgan@kinnaman.net](mailto:morgan@kinnaman.net).
 
-Virtually all of my repositories I currently hold are filled with small scripts or static websites. I try to build most of my programs under the unix philosophy of smaller modular programs that serve a single purpose well. 
-
-<p align="left">
-<img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=kinnaman">
-</p>
 
