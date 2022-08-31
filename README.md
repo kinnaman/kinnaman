@@ -17,9 +17,9 @@
 <img alt=C++" src="https://img.shields.io/badge/C++-00599C?logo=c%2b%2b&logoColor=white&style=for-the-badge" />
 <img alt="Inkscape" src="https://img.shields.io/badge/Inkscape-000000?logo=inkscape&logoColor=white&style=for-the-badge" />
 </p>
+<img alt="github stats"  src="https://github-readme-stats.vercel.app/api?username=kinnaman">
 </div>
 
-<img alt="github stats" style="margin-left: auto; margin-right: auto; display: block; max-width: 70%" src="https://github-readme-stats.vercel.app/api?username=kinnaman">
 
 # Profile Summation
 Hello, I am an IT professional with a passion for Free Open Source Software.
