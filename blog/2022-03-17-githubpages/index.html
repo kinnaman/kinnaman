@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>
+		Kinnaman
+		</title>
+	
+	
+	
+	<link rel="stylesheet" href="/sass/main.css">
+</head>
+
+
+	<body>
+		<div class="container min-vh-100">
+		
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+	<div class="container">
+		<a class="navbar-brand" href="https://www.kinnaman.net">Kinnaman</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+				
+				<li class="nav-item">
+					<a class="nav-link " aria-current="page" href="/blog/">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " aria-current="page" href="/about/">About</a>
+				</li>
+				
+		</div>
+	</div>
+</nav>
+
+		
+<div class="container">
+  <h1 class="display-4">Sane Jekyll &amp; NPM Setup</h1>
+  <h6 class="text-muted">March 17, 2022</h6>
+  <p>Jekyll&rsquo;s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is relatively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.</p>
+<p>The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependencies.</p>
+<h4 id="setting-up-the-environment">Setting Up the Environment</h4>
+<p>First be sure to have Jekyll and NPM installed on your computer. Once that is done, create the your working directory by using the following.</p>
+<p>First create the project directory with Jekyll.</p>
+<pre tabindex="0"><code>$ jekyll new projectname
+$ cd projectname
+</code></pre><p>Next set and install any node_modules you plan to use.</p>
+<pre tabindex="0"><code>$ npm init -y
+$ npm install webpack-demo webpack-cli --save-dev
+</code></pre><h4 id="file-structure">File Structure</h4>
+<p>Next, move the files and directories generated so they resemble this map. Create directories as needed if they do not already exit.</p>
+<pre tabindex="0"><code>├── _config.yml
+├── _site
+├── Gemfile
+├── Gemfile.lock
+├── node_modules
+├── package.json
+├── package-lock.json
+├── src
+│   ├── 404.html
+│   ├── about.markdown
+│   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   └── js
+│   │       └── main.js
+│   ├── index.js
+│   ├── index.markdown
+│   ├── _layouts
+│   │   └── default.html
+│   ├── _posts
+│   └── _sass
+│       ├── main.css
+│       └── _variables.scss
+└── webpack.config.js
+</code></pre><h4 id="config-set-up">Config Set-Up</h4>
+<p>First we&rsquo;re going to edit the <code>package.json</code> we generated with <code>npm init</code>. We need it to include <code>&ldquo;build&rdquo;: &ldquo;webpack&rdquo;</code> under scripts.</p>
+<pre tabindex="0"><code>{
+  &#34;name&#34;: &#34;projectname&#34;,
+  &#34;version&#34;: &#34;1.0.0&#34;,
+  &#34;description&#34;: &#34;&#34;,
+  &#34;main&#34;: &#34;index.js&#34;,
+  &#34;scripts&#34;: {
+    &#34;test&#34;: &#34;echo \&#34;Error: no test specified\&#34; &amp;&amp; exit 1&#34;,
+	 &#34;build&#34;: &#34;webpack&#34;
+  },
+  &#34;keywords&#34;: [],
+  &#34;author&#34;: &#34;&#34;,
+  &#34;license&#34;: &#34;ISC&#34;,
+  &#34;dependencies&#34;: {
+    &#34;bootstrap&#34;: &#34;^5.1.3&#34;
+  },
+  &#34;devDependencies&#34;: {
+    &#34;webpack-cli&#34;: &#34;^4.9.2&#34;,
+    &#34;webpack-demo&#34;: &#34;^1.0.0&#34;
+  }
+}
+</code></pre><p>Next Webpack&rsquo;s <code>webpack.config.js</code> needs to be configured properly in order to input, build, then output to the <code>src</code> directory.</p>
+<pre tabindex="0"><code>const path = require(&#34;path&#34;);
+
+module.exports = {
+	entry: &#34;.src/index.js&#34;,
+	output: {
+		filename: &#34;main.js&#34;
+		path: path.join(__direname, &#34;./src/assets/js&#34;),
+	}
+};
+</code></pre><p>Finally the last config to edit is the <code>_config.yml</code> to include the following in order to load stylesheets from node_modules.</p>
+<pre tabindex="0"><code>source: src
+</code></pre><p>We will add bootstrap in this example, as if we added it through <code>npm</code> by creating a symbolic link to bootstrap from the <code>_sass</code> directory.</p>
+<pre tabindex="0"><code>$ cd src/_sass/
+$ [editor] style.scss
+</code></pre><pre tabindex="0"><code>// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won&#39;t be available)
+
+@import &#34;../node_modules/bootstrap/scss/bootstrap&#34;;
+
+// Then add additional custom code here
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import &#34;../node_modules/bootstrap/scss/functions&#34;;
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import &#34;../node_modules/bootstrap/scss/variables&#34;;
+@import &#34;../node_modules/bootstrap/scss/mixins&#34;;
+
+// 4. Include any optional Bootstrap components as you like
+@import &#34;../node_modules/bootstrap/scss/root&#34;;
+@import &#34;../node_modules/bootstrap/scss/reboot&#34;;
+@import &#34;../node_modules/bootstrap/scss/type&#34;;
+@import &#34;../node_modules/bootstrap/scss/images&#34;;
+@import &#34;../node_modules/bootstrap/scss/containers&#34;;
+@import &#34;../node_modules/bootstrap/scss/grid&#34;;
+
+// 5. Add additional custom code here
+</code></pre><p>If everything is properly organized, it should all load and run properly. Before committing to github, be sure to add to your <code>.gitignore</code></p>
+<pre tabindex="0"><code>.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+node_modules
+</code></pre>
+</div>
+
+		</div>
+		
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<footer class="text-center text-lg-start bg-light text-muted">
+	<section>
+		<div class="container text-center text-md-start mt-5">
+			<div class="row mt-3">
+				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+					<h6 class="text-uppercase fw-bold mb-4">Kinnaman &amp; Co</h6>
+					<p style="text-align: left">
+					This is the personal site and portfolio of Morgan Kinnaman
+					</p>
+				</div>
+				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+					
+					
+				</div>
+				<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					
+					<h6 class="text-uppercase fw-bold mb-4">
+						Social Media
+					</h6>
+					<p>
+					
+					<p><a href="https://github.com/kinnaman" >Github</a>
+					</p>
+					
+					<p><a href="https://www.youtube.com/channel/UCZP6sjSJ3zoGBjxDhBEQrEg" >Youtube</a>
+					</p>
+					
+				</div>
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+					
+					<h6 class="text-uppercase fw-bold mb-4">
+						Contact
+					</h6>
+					
+					<p><a href="https://goo.gl/maps/nytsDVdypb8wL4vs9">Friday Harbor, WA 98250
+					</p></a> 
+					
+					<p><a href="mailto:%20contact@kinnaman.net">contact@kinnaman.net
+					</p></a> 
+					
+
+					<p> </p>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</section>
+</footer>
+
+	</body>
+</html>

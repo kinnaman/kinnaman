@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web-development on Kinnaman</title>
+    <link>https://www.kinnaman.net/tags/web-development/</link>
+    <description>Recent content in web-development on Kinnaman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.kinnaman.net/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Development Resources</title>
+      <link>https://www.kinnaman.net/blog/2022-02-24-webdev/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kinnaman.net/blog/2022-02-24-webdev/</guid>
+      <description>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they&amp;rsquo;re curious about web development. It is loosely based off of university code camps syllabi.
+I used many of these same resources when I taught myself and friends how to do simple web development.</description>
+    </item>
+    
+  </channel>
+</rss>
