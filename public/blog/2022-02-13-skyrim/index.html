@@ -39,64 +39,20 @@
 
 		
 <div class="container">
-	<h1 class="display-4 text-center">Category</h1>
-	<ul>
-		
-		<li class="list-unstyled">
-			<article>
-				<h5 class="text-muted">August 16, 2022</h5>
-				<h4><a href="http://kinnaman.net/categories/gaming-speedrun/" style="text-decoration:none">gaming speedrun</a></h4>
-				
-			</article>
-		</li>
-		<br />
-		
-		<li class="list-unstyled">
-			<article>
-				<h5 class="text-muted">May 6, 2022</h5>
-				<h4><a href="http://kinnaman.net/categories/diy/" style="text-decoration:none">DIY</a></h4>
-				
-			</article>
-		</li>
-		<br />
-		
-		<li class="list-unstyled">
-			<article>
-				<h5 class="text-muted">April 30, 2022</h5>
-				<h4><a href="http://kinnaman.net/categories/book-review/" style="text-decoration:none">book-review</a></h4>
-				
-			</article>
-		</li>
-		<br />
-		
-		<li class="list-unstyled">
-			<article>
-				<h5 class="text-muted">April 16, 2022</h5>
-				<h4><a href="http://kinnaman.net/categories/gaming/" style="text-decoration:none">gaming</a></h4>
-				
-			</article>
-		</li>
-		<br />
-		
-		<li class="list-unstyled">
-			<article>
-				<h5 class="text-muted">March 29, 2022</h5>
-				<h4><a href="http://kinnaman.net/categories/philosophy-lifestyle/" style="text-decoration:none">philosophy lifestyle</a></h4>
-				
-			</article>
-		</li>
-		<br />
-		
-		<li class="list-unstyled">
-			<article>
-				<h5 class="text-muted">March 17, 2022</h5>
-				<h4><a href="http://kinnaman.net/categories/technology/" style="text-decoration:none">technology</a></h4>
-				
-			</article>
-		</li>
-		<br />
-		
-	</ul>
+  <h1 class="display-4">Skyrim on Linux without Steam</h1>
+  <h6 class="text-muted">February 13, 2022</h6>
+  <p>Setting up Skyrim on Linux is mightily easy</p>
+<p>The only error after set up is tabbing out of game causes a freeze.</p>
+<ol>
+<li>Download the game, wine, and wine tools.</li>
+</ol>
+<p><code>$ sudo apt install wine winetricks</code></p>
+<ol start="2">
+<li>Run <code>winetricks</code> and set up a 64-bit instance on Windows7 with <code>d3dx9_42</code>, <code>xact64</code>, and <code>vcrun2019</code> installed.</li>
+<li>Installing both the <code>skyrimSE.exe</code> and <code>skyrimSELauncher.exe</code> are required to launch the game. Use <code>ufw</code> in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall in many distros.</li>
+</ol>
+<p>It really is that simple.</p>
+
 </div>
 
 		</div>

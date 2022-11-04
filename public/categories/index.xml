@@ -5,6 +5,61 @@
     <link>http://kinnaman.net/categories/</link>
     <description>Recent content in Categories on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://kinnaman.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gaming speedrun</title>
+      <link>http://kinnaman.net/categories/gaming-speedrun/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/categories/gaming-speedrun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>http://kinnaman.net/categories/diy/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/categories/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book-review</title>
+      <link>http://kinnaman.net/categories/book-review/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/categories/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gaming</title>
+      <link>http://kinnaman.net/categories/gaming/</link>
+      <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/categories/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>philosophy lifestyle</title>
+      <link>http://kinnaman.net/categories/philosophy-lifestyle/</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/categories/philosophy-lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>http://kinnaman.net/categories/technology/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/categories/technology/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

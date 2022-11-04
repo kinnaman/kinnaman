@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kinnaman</title>
-    <link>http://kinnaman.net/</link>
-    <description>Recent content on Kinnaman</description>
+    <title>Blogs on Kinnaman</title>
+    <link>http://kinnaman.net/blog/</link>
+    <description>Recent content in Blogs on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hollow Knight Speedrun 3:40:04</title>
       <link>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</link>
@@ -24,26 +24,6 @@
       <guid>http://kinnaman.net/blog/2022-06-25-redstone-mods/</guid>
       <description>I am the designated industrialist in my Minecraft realm. I enjoy the logistical and technical challenges in automating resource gathering, leaving most of the artistic building up to my friends. These are the mods I use in order to get the most done with the least amount of my time invested actively managing my world.
 Mods Baritone Lightmatica Tweakaroo MiniHUD Xaero&amp;rsquo;s Minimap and Xaero&amp;rsquo;s World Map Item-Scroller Custom Clients Forge Impact Client Fabric Launcher Optifine </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://kinnaman.net/about/</link>
-      <pubDate>Sun, 29 May 2022 20:51:15 -0700</pubDate>
-      
-      <guid>http://kinnaman.net/about/</guid>
-      <description>This is the personal website of Morgan Kinnaman, an IT professional and developer who loves to learn and build.
-This website is to showcase my professional services, open source contributions, designs, thoughts, and more. Everything I post in here is free for use through GPL-3.0 or Create Commons licensing, and I try to provide thorough documentation.
-Although I am enthusiastic about technology and the internet, a healthy balance is needed with nature and real-world engagement.</description>
-    </item>
-    
-    <item>
-      <title>Services</title>
-      <link>http://kinnaman.net/services/</link>
-      <pubDate>Sun, 29 May 2022 20:51:08 -0700</pubDate>
-      
-      <guid>http://kinnaman.net/services/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -143,15 +123,6 @@ I used many of these same resources when I taught myself and friends how to do s
 The only error after set up is tabbing out of game causes a freeze.
 Download the game, wine, and wine tools. $ sudo apt install wine winetricks
 Run winetricks and set up a 64-bit instance on Windows7 with d3dx9_42, xact64, and vcrun2019 installed. Installing both the skyrimSE.exe and skyrimSELauncher.exe are required to launch the game. Use ufw in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall in many distros.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://kinnaman.net/portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/portfolio/</guid>
-      <description>This is a page.</description>
     </item>
     
   </channel>
