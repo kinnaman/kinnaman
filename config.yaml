@@ -34,7 +34,7 @@ menu:
       title: About
       url: /about/
       weight: 200
-  footer: true
+        #  footer: true
 
 sitemap:
   changefreq: weekly
