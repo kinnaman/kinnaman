@@ -1,0 +1,52 @@
+title: Kinnaman
+baseURL: http://kinnaman.net/
+languageCode: en-us
+theme: simplesite
+enableRobotsTXT: true
+paginate: 10
+googleAnalytics: false
+
+params:
+  text_color: 
+  author:
+  favicon: 
+  site_logo: 
+  description: 
+  background_color: 
+  socialMedia:
+    - name: Youtube
+      url: 
+      icon: 
+    - name: Github
+      url: 
+      icon: 
+
+# All menu urls must have a different assigned weight for ordering.
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog
+      url: /blog/
+      weight: 100
+    - identifier: about
+      name: About
+      title: About
+      url: /about/
+      weight: 200
+  footer: true
+
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+  filename: sitemap.xml
+
+module:
+  module.mounts:
+    - source:  node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+      target: assets/js/bootstrap.bundle.min.js
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
