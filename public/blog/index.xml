@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Christmas Tree Decorating Timelapse</title>
+      <link>http://kinnaman.net/blog/2022-12-15-christmas-tree-timelapse/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://kinnaman.net/blog/2022-12-15-christmas-tree-timelapse/</guid>
+      <description>Faith and I spent a few hours decorating our Christmas tree today. I also practiced using Darktable and Kdenlive in creating timelapses. With approximately 4,000 images captured in RAW, the total volume of the images were 90GB. I used darktable to correct the white balance and exposure slightly, converting the images to JPEG. Each photo went from 22MB to 500KB, and from there I used Kdenlive to make a webm video that only took 138MB.</description>
+    </item>
+    
     <item>
       <title>Hollow Knight Speedrun 3:40:04</title>
       <link>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</link>

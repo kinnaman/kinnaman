@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://kinnaman.net/</loc>
-    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/blog/</loc>
-    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/categories/</loc>
-    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/blog/2022-12-15-christmas-tree-timelapse/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/tags/life-holidays/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/categories/misc/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/tags/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -33,11 +53,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/tags/minecraft-gaming/</loc>
-    <lastmod>2022-06-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://kinnaman.net/tags/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
