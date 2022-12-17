@@ -13,6 +13,9 @@ params:
   site_logo: 
   description: Personal website of Morgan Kinnaman. 
   background_color: 
+  contact:
+    - info: morgan@kinnaman.net
+      url: "mailto: morgan@kinnaman.net"
   socialMedia:
     - name: Youtube
       url: https://youtube.com/@morgan_kinnaman
@@ -20,6 +23,8 @@ params:
     - name: Github
       url: https://github.com/kinnaman 
       icon: 
+    - name: Instagram
+      url: https://instagram.com/kinnaman
 
 # All menu urls must have a different assigned weight for ordering.
 menu:
