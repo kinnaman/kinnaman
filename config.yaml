@@ -8,17 +8,17 @@ googleAnalytics: false
 
 params:
   text_color: 
-  author:
+  author: Morgan Kinnaman
   favicon: 
   site_logo: 
   description: Personal website of Morgan Kinnaman. 
   background_color: 
   socialMedia:
     - name: Youtube
-      url: 
+      url: https://youtube.com/@morgan_kinnaman
       icon: 
     - name: Github
-      url: 
+      url: https://github.com/kinnaman 
       icon: 
 
 # All menu urls must have a different assigned weight for ordering.
