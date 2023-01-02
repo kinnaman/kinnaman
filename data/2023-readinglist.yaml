@@ -1,0 +1,249 @@
+- title: The Dark Forest
+  pages: 655
+  fiction: true
+  author: Liu Cixin
+
+- title: Death's End
+  pages: 763
+  fiction: true
+  author: Liu Cixin
+
+- title: Nicomachean Ethics
+  author: Aristotle
+  pages:
+  fiction: false
+
+- title: Politics
+  author: Aristotle
+  pages:
+  fiction: false
+
+- title: Metaphysics
+  author: Aristotle
+  pages:
+  fiction: false
+
+- title: Poetics
+  author: Aristotle
+  pages:
+  fiction: false
+
+- title: On the Soul (De Anima)
+  author: Aristotle
+  pages:
+  fiction: false
+
+- title: Beyond Good and Evil
+  author: Friedrich Nietzsche
+  pages:
+  fiction: 
+
+- title: On Geneology and Morality
+  author: Friedrich Nietzsche
+  pages:
+  fiction: false
+
+- title: Man and His Symbols
+  author: Carl Gustav Jung
+  pages:
+  fiction: false 
+
+- title: The Snowball
+  author: Alice Schroeder
+  pages:
+  fiction: false
+
+- title: The Intelligent Investor
+  author: Benjamin Graham
+  pages:
+  fiction: false 
+
+- title: Apology 
+  pages: 
+  fiction: false
+  author: Plato
+
+- title: The Republic
+  pages:
+  fiction: false
+  author: Plato
+
+- title: Crito 
+  pages:
+  fiction: false
+  author: Plato
+
+- title: Phaedo 
+  pages:
+  fiction: false
+  author: Plato
+
+- title: Phaedrus 
+  pages:
+  fiction: false
+  author: Plato
+
+- title: Phaedrus 
+  pages:
+  fiction: false
+  author: Plato
+
+- title: Symposium 
+  pages:
+  fiction: false
+  author: Plato
+
+- title: Propaganda and the Public Mind
+  author: Noam Chomsky 
+  pages: 282
+  fiction: false 
+
+- title: The Count of Monte Cristo
+  author: Alexandre Dumas
+  pages: 666
+  fiction: true 
+
+- title: The Hero With A Thousand Faces 
+  author: Joseph Campbell 
+  pages: 563
+  fiction: false
+
+- title: Lolita
+  author: Vladimir Nabokov
+  pages: 346
+  fiction: true
+
+- title: The Wealth of Nations
+  author: Adam Smith
+  pages: 703
+  fiction: false
+
+- title: Communist Manifesto & Letters
+  author: Marx and Engels
+  pages: 66
+  fiction: false
+
+- title: Invisible Man 
+  author: Ralph Ellison
+  pages: 581
+  fiction: true
+
+- title: Man and His Symbols
+  author: Carl Jung
+  pages: 234
+  fiction: false
+
+- title: The Metamorphosis
+  author: Franz Kafka
+  pages: 212
+  fiction: true
+
+- title: The Book of Five Rings
+  author: Miyamoto Musashi
+  pages: 145
+  fiction: false
+
+- title: Lysistrata
+  author: Aristophanes
+  pages:
+  fiction: true
+
+- title: Clouds
+  author: Aristophanes
+  pages:
+  fiction: true
+
+- title: All Quiet on the Western Front
+  author: Erich Maria
+  pages: 128
+  fiction: true
+
+- title: The Go Programming Language
+  author: Alan Donovan & Brian Kerninghan
+  pages:
+  fiction: false
+
+- title: C Programming Language
+  author: Brian W. Kerninghan & Dennis Ritchie
+  pages:
+  fiction: false
+
+- title: Capitalism, Socialism, and Democracy
+  author: Joseph Schumpeter
+  pages: 
+  fiction: false
+
+- title: Jane Eyre
+  author: Charlotte Bronte
+  pages: 613
+  fiction: true
+
+- title: The Master and Margarita
+  author: Mikhail Bulgakov
+  pages: 561
+  fiction: true
+
+- title: Sense and Sensibility
+  author: Jane Austen
+  pages: 404
+  fiction: true
+
+- title: So I'm a Spider, So What?
+  author: Okin Baba & Asashiro Kakashi
+  pages:
+  fiction: true
+
+- title: Pride and Prejudice
+  author: Jane Austen
+  pages: 424
+  fiction: true 
+
+- title: Propoganda and the Public Mind
+  author: Noam Chomsky
+  pages: 282
+  fiction: false 
+
+- title: Gender Trouble
+  author: Judith Butler
+  pages:
+  fiction: false
+
+- title: Red, White, & Royal Blue
+  author: Casey McQuiston
+  pages: 408
+  fiction: true
+
+- title: The Scarlet letter
+  author: Nathaniel Hawthorne
+  pages: 279
+  fiction: true
+
+- title: And Then There Were None
+  author: Agatha Christie
+  pages: 265
+  fiction: true
+
+- title: I Know Why the Caged Bird Sings
+  author: Maya Angelou
+  pages: 252
+  fiction: true 
+
+- title: Hyperion
+  author: Dan Simmons
+  pages: 
+  fiction: true
+
+- title: The Fall of Hyperion
+  author: Dan Simmons
+  pages:
+  fiction: true 
+
+- title: Endymion 
+  author: Dan Simmons
+  pages:
+  fiction: true 
+
+- title: The Rise of Endymion
+  author: Dan Simmons
+  pages:
+  fiction: true 
