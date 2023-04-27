@@ -1,7 +1,6 @@
 title: Kinnaman
 baseURL: http://kinnaman.net/
 languageCode: en-us
-theme: simplesite
 enableRobotsTXT: true
 paginate: 10
 googleAnalytics: false
@@ -53,7 +52,4 @@ module:
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: assets/js/bootstrap.bundle.min.js
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+theme: 'simplesite'

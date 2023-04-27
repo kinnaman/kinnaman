@@ -42,7 +42,7 @@
   <h1 class="display-4">Sane Jekyll &amp; NPM Setup</h1>
   <h6 class="text-muted">March 17, 2022</h6>
   <p>Jekyll&rsquo;s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is relatively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.</p>
-<p>The JavaScript from <code>node_modules</code> will be slimmed and output into the source directory with any loaded dependencies.</p>
+<p>The JavaScript from <!-- raw HTML omitted -->node_modules<!-- raw HTML omitted --> will be slimmed and output into the source directory with any loaded dependencies.</p>
 <h4 id="setting-up-the-environment">Setting Up the Environment</h4>
 <p>First be sure to have Jekyll and NPM installed on your computer. Once that is done, create the your working directory by using the following.</p>
 <p>First create the project directory with Jekyll.</p>
@@ -78,7 +78,7 @@ $ npm install webpack-demo webpack-cli --save-dev
 │       └── _variables.scss
 └── webpack.config.js
 </code></pre><h4 id="config-set-up">Config Set-Up</h4>
-<p>First we&rsquo;re going to edit the <code>package.json</code> we generated with <code>npm init</code>. We need it to include <code>&ldquo;build&rdquo;: &ldquo;webpack&rdquo;</code> under scripts.</p>
+<p>First we&rsquo;re going to edit the <!-- raw HTML omitted -->package.json<!-- raw HTML omitted --> we generated with <!-- raw HTML omitted -->npm init<!-- raw HTML omitted -->. We need it to include <!-- raw HTML omitted -->&ldquo;build&rdquo;: &ldquo;webpack&rdquo;<!-- raw HTML omitted --> under scripts.</p>
 <pre tabindex="0"><code>{
   &#34;name&#34;: &#34;projectname&#34;,
   &#34;version&#34;: &#34;1.0.0&#34;,
@@ -99,7 +99,7 @@ $ npm install webpack-demo webpack-cli --save-dev
     &#34;webpack-demo&#34;: &#34;^1.0.0&#34;
   }
 }
-</code></pre><p>Next Webpack&rsquo;s <code>webpack.config.js</code> needs to be configured properly in order to input, build, then output to the <code>src</code> directory.</p>
+</code></pre><p>Next Webpack&rsquo;s <!-- raw HTML omitted -->webpack.config.js<!-- raw HTML omitted --> needs to be configured properly in order to input, build, then output to the <!-- raw HTML omitted -->src<!-- raw HTML omitted --> directory.</p>
 <pre tabindex="0"><code>const path = require(&#34;path&#34;);
 
 module.exports = {
@@ -109,9 +109,9 @@ module.exports = {
 		path: path.join(__direname, &#34;./src/assets/js&#34;),
 	}
 };
-</code></pre><p>Finally the last config to edit is the <code>_config.yml</code> to include the following in order to load stylesheets from node_modules.</p>
+</code></pre><p>Finally the last config to edit is the <!-- raw HTML omitted -->_config.yml<!-- raw HTML omitted --> to include the following in order to load stylesheets from node_modules.</p>
 <pre tabindex="0"><code>source: src
-</code></pre><p>We will add bootstrap in this example, as if we added it through <code>npm</code> by creating a symbolic link to bootstrap from the <code>_sass</code> directory.</p>
+</code></pre><p>We will add bootstrap in this example, as if we added it through <!-- raw HTML omitted -->npm<!-- raw HTML omitted --> by creating a symbolic link to bootstrap from the <!-- raw HTML omitted -->_sass<!-- raw HTML omitted --> directory.</p>
 <pre tabindex="0"><code>$ cd src/_sass/
 $ [editor] style.scss
 </code></pre><pre tabindex="0"><code>// Custom.scss
@@ -144,7 +144,7 @@ $ [editor] style.scss
 @import &#34;../node_modules/bootstrap/scss/grid&#34;;
 
 // 5. Add additional custom code here
-</code></pre><p>If everything is properly organized, it should all load and run properly. Before committing to github, be sure to add to your <code>.gitignore</code></p>
+</code></pre><p>If everything is properly organized, it should all load and run properly. Before committing to github, be sure to add to your <!-- raw HTML omitted -->.gitignore<!-- raw HTML omitted --></p>
 <pre tabindex="0"><code>.sass-cache
 .jekyll-cache
 .jekyll-metadata

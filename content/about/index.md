@@ -10,9 +10,7 @@ date: 2022-05-29T20:51:15-07:00
 
 This is the personal website of Morgan Kinnaman, an IT professional and developer who loves to learn and build. 
 
-I am enthusiastic about technology and the internet, balanced with a healthy real-world engagement. 
-
-I spend my time studying, going outdoors, and creating open source projects. I enjoy boating, fishing, motorcycling, reading, chess, and more. It is a beautiful world filled with interesting unique people, and I am grateful for each day in it.
+I spend my free time designing, building, fishing, motorcycling, reading, and playing chess.
 </div>
 </div>
 </div>
