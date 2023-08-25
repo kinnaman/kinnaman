@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://kinnaman.net/</loc>
-    <lastmod>2023-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/blog/</loc>
-    <lastmod>2023-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/categories/</loc>
-    <lastmod>2023-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/tags/computer-it-gaming-msfs2020/</loc>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/blog/2023-08-24-pc-build/</loc>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/tags/</loc>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://kinnaman.net/categories/technology/</loc>
+    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -28,11 +48,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</loc>
-    <lastmod>2023-04-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://kinnaman.net/tags/</loc>
     <lastmod>2023-04-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -143,11 +158,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://kinnaman.net/blog/2022-03-17-githubpages/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://kinnaman.net/categories/technology/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
