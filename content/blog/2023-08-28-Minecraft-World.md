@@ -2,7 +2,7 @@
 title: "Minecraft With Friends"
 date: 2023-08-28
 layout: post
-draft: true
+draft: false
 categories: gaming
 tags: gaming, Minecraft
 ---
