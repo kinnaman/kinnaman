@@ -1,0 +1,5 @@
+---
+date: '2023-10-20T23:43:32-07:00'
+draft: false
+---
+I created a 'blips' directory to be used similarly to how Twitter or Threads is intended. Quick little posts of passing thoughts without much effort. I'm grateful that creating static websites and blogs has become so accessible. Throughout my time in IT, I've learned that digital literacy in the general public is much lower than a younger me would have guessed. That's okay though as it has been for both work and pleasure to help others with troubleshooting or translating the technical jargon to simpler language. I wouldn't expect the layperson to be able to make a webpage or blog from scratch and host it. Yet I've encouraged my family to try, which a few have though they did not go as far as hosting the blog. Perhaps for the better as publicly presenting yourself on the internet can be a dangerous endevour. I'm just grateful I have supportive people in my life, taking the time to better understand my passions. Nothing is of greater value than those loved ones who give grace, time, interest, and love.
