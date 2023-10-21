@@ -21,7 +21,7 @@
 </div>
 
 
-Hi, I am an IT professional with a passion for Free Open Source Software.
+Hi, I am an IT professional with a passion for Free Open Source Software, gaming, and nature.
 
 My personal blog is [kinnaman.net/blog/](https://www.kinnaman.net/blog/). You can reach me at [morgan@kinnaman.net](mailto:morgan@kinnaman.net).
 
