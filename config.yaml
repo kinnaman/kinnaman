@@ -38,7 +38,12 @@ menu:
       title: About
       url: /about/
       weight: 200
-        #  footer: true
+    - identifier: blips
+      name: Blips
+      title: Blips - Micro Posts
+      url: /blip/
+      weight: 300
+       #  footer: true
 
 sitemap:
   changefreq: weekly

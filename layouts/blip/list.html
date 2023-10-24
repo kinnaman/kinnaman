@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="container">
+	<h1 class="display-4 text-center">Blips - Micro Posts</h1>
+	<ul>
+		{{ range .Paginator.Pages }}
+		<li class="list-unstyled">
+			<article>
+				<h6 class="text-muted">{{ .Date | time.Format ":date_long"}} {{ .Date | time.Format ":time_medium"}}</h6>
+				<h4><a href="{{ .Permalink }}" style="text-decoration:none">{{ .Title }}</a></h4>
+				{{ .Summary }}
+			</article>
+		</li>
+		<br />
+		{{ end }}
+	</ul>
+	{{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

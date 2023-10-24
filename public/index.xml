@@ -6,7 +6,98 @@
     <description>Recent content on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Oct 2023 22:50:47 -0700</lastBuildDate><atom:link href="http://kinnaman.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-23_225047/</link>
+      <pubDate>Mon, 23 Oct 2023 22:50:47 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-23_225047/</guid>
+      <description>I successfully added blips to my blog. I&amp;rsquo;m pretty happy with that. While doing the edits tonight, it is clear my Neovim configs need an update as well. But it&amp;rsquo;s getting late so I&amp;rsquo;ll postpone that for now. It isn&amp;rsquo;t good to become sidetracked so quickly.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-23_221156/</link>
+      <pubDate>Mon, 23 Oct 2023 22:11:56 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-23_221156/</guid>
+      <description>Time to add the blip section to my blog&amp;rsquo;s nav. Actually customizing it and adding it as a sub-menu item will come later.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-23_220305/</link>
+      <pubDate>Mon, 23 Oct 2023 22:03:05 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-23_220305/</guid>
+      <description>Found a few nice little animations for websites like like this handwritten animation, a nice submit button, perlin art, and some decent svg art</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-23_195028/</link>
+      <pubDate>Mon, 23 Oct 2023 19:50:31 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-23_195028/</guid>
+      <description>I&amp;rsquo;m getting a little tired of creating blips using the full ./blip.sh typeout. I would rather be able to write &amp;ldquo;blip&amp;rdquo; in the terminal, so I&amp;rsquo;m adding it to my .bashrc</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-23_194704/</link>
+      <pubDate>Mon, 23 Oct 2023 19:47:04 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-23_194704/</guid>
+      <description>Rewatching the 2004 Van Helsing. It reminds me of World of Warcraft&amp;rsquo;s worgen. I think I&amp;rsquo;ll resubscribe to play more of Dragonflight. I was having fun with that expansion but ran out of time to play.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-22_190959/</link>
+      <pubDate>Sun, 22 Oct 2023 19:10:00 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-22_190959/</guid>
+      <description>After trying the Quest 3 at Bestbuy, I was set on purchasing a Quest for home gaming and to tinker with. So yesterday I purchased the Quest 2, as I do not have a great desire for the XR features yet and it would be ~$200 less to purchase. I was wrong to choose the older model, as I quickly felt nausea while using the Quest 2. I&amp;rsquo;m going to return the Quest 2 and spend the extra for the Quest 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-21_071256/</link>
+      <pubDate>Sat, 21 Oct 2023 07:12:56 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-21_071256/</guid>
+      <description>Now that the content generation workflow for blips is streamlined, I need to create their own layouts. That will be for this evening or another day as I have to get ready for work.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2023-10-21_070329/</link>
+      <pubDate>Sat, 21 Oct 2023 07:03:29 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2023-10-21_070329/</guid>
+      <description>Made a simple bash script for creating blips in linux.
+#! /bin/bash DATE=$(date +%F) TIME=$(date +%T) FILE_NAME=$DATE\_$TIME.md hugo new blip/$FILE_NAME $EDITOR content/blip/$FILE_NAME </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/2/</link>
+      <pubDate>Sat, 21 Oct 2023 06:32:43 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/2/</guid>
+      <description>I like the blips or &amp;lsquo;micro posts&amp;rsquo; idea. I just need a script to create the filenames as labelling them 1.md, 2.md, 3.md, etc. is inefficient.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://kinnaman.net/blip/a/</link>
+      <pubDate>Fri, 20 Oct 2023 23:43:32 -0700</pubDate>
+      
+      <guid>http://kinnaman.net/blip/a/</guid>
+      <description>I created a &amp;lsquo;blips&amp;rsquo; directory to be used similarly to how Twitter or Threads is intended. Quick little posts of passing thoughts without much effort. I&amp;rsquo;m grateful that creating static websites and blogs has become so accessible. Throughout my time in IT, I&amp;rsquo;ve learned that digital literacy in the general public is much lower than a younger me would have guessed. That&amp;rsquo;s okay though as it has been for both work and pleasure to help others with troubleshooting or translating the technical jargon to simpler language.</description>
+    </item>
+    
     <item>
       <title>Minecraft With Friends</title>
       <link>http://kinnaman.net/blog/2023-08-28-minecraft-world/</link>
@@ -23,7 +114,7 @@
       
       <guid>http://kinnaman.net/blog/2023-08-24-pc-build/</guid>
       <description>Here is my PC part list for a capable Microsoft Flight Simulator 2020 vr machine. It trounces my old PC in performance. Coupled with the new Meta Quest 3, it should make for an extremely immersive experience. My old PC is going to be used as a server, with the GPU used for producing more heat when my room gets cold.
-PCPartPicker Part ListTypeItemPriceCPUAMD Ryzen 9 5900X 3.</description>
+PCPartPicker Part List Type Item Price CPU AMD Ryzen 9 5900X 3.</description>
     </item>
     
     <item>
