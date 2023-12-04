@@ -32,12 +32,17 @@ menu:
       name: Blog
       title: Blog
       url: /blog/
-      weight: 100
+      weight: 200
     - identifier: about
       name: About
       title: About
       url: /about/
-      weight: 200
+      weight: 800
+    - identifier: portfolio
+      name: Portfolio
+      title: Portfolio
+      url: /portfolio/
+      weight: 100
     - identifier: blips
       name: Blips
       title: Blips - Micro Posts
