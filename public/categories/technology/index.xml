@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>technology on Kinnaman</title>
-    <link>http://kinnaman.net/categories/technology/</link>
-    <description>Recent content in technology on Kinnaman</description>
+    <title>Technology on Kinnaman</title>
+    <link>http://localhost:1313/categories/technology/</link>
+    <description>Recent content in Technology on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Aug 2023 21:41:05 -0700</lastBuildDate><atom:link href="http://kinnaman.net/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux vs Visual Studio Code on Windows</title>
+      <link>http://localhost:1313/blog/2023-08-28-vs-code-windows/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2023-08-28-vs-code-windows/</guid>
+      <description>Turns out&amp;hellip; Not mutually exclusive. With WSL, anything is possible! /sacrcasm</description>
+    </item>
     <item>
       <title>PC Build for VR Flight Simulators</title>
-      <link>http://kinnaman.net/blog/2023-08-24-pc-build/</link>
+      <link>http://localhost:1313/blog/2023-08-24-pc-build/</link>
       <pubDate>Thu, 24 Aug 2023 21:41:05 -0700</pubDate>
-      
-      <guid>http://kinnaman.net/blog/2023-08-24-pc-build/</guid>
-      <description>Here is my PC part list for a capable Microsoft Flight Simulator 2020 vr machine. It trounces my old PC in performance. Coupled with the new Meta Quest 3, it should make for an extremely immersive experience. My old PC is going to be used as a server, with the GPU used for producing more heat when my room gets cold.
-PCPartPicker Part List Type Item Price CPU AMD Ryzen 9 5900X 3.</description>
+      <guid>http://localhost:1313/blog/2023-08-24-pc-build/</guid>
+      <description>Here is my PC part list for a capable Microsoft Flight Simulator 2020 vr machine. It trounces my old PC in performance. Coupled with the new Meta Quest 3, it should make for an extremely immersive experience. My old PC is going to be used as a server, with the GPU used for producing more heat when my room gets cold.&#xA;PCPartPicker Part List Type Item Price CPU AMD Ryzen 9 5900X 3.</description>
     </item>
-    
     <item>
       <title>Sane Jekyll &amp; NPM Setup</title>
-      <link>http://kinnaman.net/blog/2022-03-17-githubpages/</link>
+      <link>http://localhost:1313/blog/2022-03-17-githubpages/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/blog/2022-03-17-githubpages/</guid>
-      <description>Jekyll&amp;rsquo;s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is relatively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.
-The JavaScript from node_modules will be slimmed and output into the source directory with any loaded dependencies.</description>
+      <guid>http://localhost:1313/blog/2022-03-17-githubpages/</guid>
+      <description>Jekyll&amp;rsquo;s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is relatively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.&#xA;The JavaScript from node_modules will be slimmed and output into the source directory with any loaded dependencies.</description>
     </item>
-    
     <item>
       <title>Web Development Resources</title>
-      <link>http://kinnaman.net/blog/2022-02-24-webdev/</link>
+      <link>http://localhost:1313/blog/2022-02-24-webdev/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/blog/2022-02-24-webdev/</guid>
-      <description>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they&amp;rsquo;re curious about web development. It is loosely based off of university code camps syllabi.
-I used many of these same resources when I taught myself and friends how to do simple web development.</description>
+      <guid>http://localhost:1313/blog/2022-02-24-webdev/</guid>
+      <description>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they&amp;rsquo;re curious about web development. It is loosely based off of university code camps syllabi.&#xA;I used many of these same resources when I taught myself and friends how to do simple web development.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gaming speedrun on Kinnaman</title>
-    <link>http://kinnaman.net/categories/gaming-speedrun/</link>
-    <description>Recent content in gaming speedrun on Kinnaman</description>
+    <title>Gaming Speedrun on Kinnaman</title>
+    <link>http://localhost:1313/categories/gaming-speedrun/</link>
+    <description>Recent content in Gaming Speedrun on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/categories/gaming-speedrun/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gaming-speedrun/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hollow Knight Speedrun 3:40:04</title>
-      <link>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</link>
+      <link>http://localhost:1313/blog/2022-08-06-hollowknight-first-run/</link>
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</guid>
+      <guid>http://localhost:1313/blog/2022-08-06-hollowknight-first-run/</guid>
       <description>I successfully completed the Speedrunner 2 achievement for Hollow Knight. To gain the achievement the game has to be beaten under 5 hours. At 3 hours and 40 minutes I succeeded, but it is very slow for a speedrun - filled with mistakes and cheese strategies. For now, I am happy with what I&amp;rsquo;ve accomplished but part of me wants to practice until I can run it without dying accidentally.</description>
     </item>
-    
   </channel>
 </rss>

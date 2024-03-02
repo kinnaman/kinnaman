@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>minecraft on Kinnaman</title>
-    <link>http://kinnaman.net/tags/minecraft/</link>
-    <description>Recent content in minecraft on Kinnaman</description>
+    <title>Minecraft on Kinnaman</title>
+    <link>http://localhost:1313/tags/minecraft/</link>
+    <description>Recent content in Minecraft on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Minecraft Merchant Stand</title>
-      <link>http://kinnaman.net/blog/2022-04-16-minecraftstand/</link>
+      <link>http://localhost:1313/blog/2022-04-16-minecraftstand/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/blog/2022-04-16-minecraftstand/</guid>
-      <description>
-This extremely simple design was made for my Minecraft Realm&amp;rsquo;s trading zone. Use string to suspend the carpet when it is not above a fence or sign. Unfortunately I am unable to provide a build guide step by step right now, but I will add it in some later post.
-Materials List Block Name Quantity Barrel 3 Oak Trap Door 1 Stone Brick Wall 2 Spruce Stairs 4 Oak Fence 4 Birch Sign 1 Carpet 20 Oak Gate 3 String 12 </description>
+      <guid>http://localhost:1313/blog/2022-04-16-minecraftstand/</guid>
+      <description>&#xA;This extremely simple design was made for my Minecraft Realm&amp;rsquo;s trading zone. Use string to suspend the carpet when it is not above a fence or sign. Unfortunately I am unable to provide a build guide step by step right now, but I will add it in some later post.&#xA;Materials List Block Name Quantity Barrel 3 Oak Trap Door 1 Stone Brick Wall 2 Spruce Stairs 4 Oak Fence 4 Birch Sign 1 Carpet 20 Oak Gate 3 String 12 </description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer, IT, Programming on Kinnaman</title>
+    <link>http://localhost:1313/tags/computer-it-programming/</link>
+    <description>Recent content in Computer, IT, Programming on Kinnaman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/computer-it-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux vs Visual Studio Code on Windows</title>
+      <link>http://localhost:1313/blog/2023-08-28-vs-code-windows/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2023-08-28-vs-code-windows/</guid>
+      <description>Turns out&amp;hellip; Not mutually exclusive. With WSL, anything is possible! /sacrcasm</description>
+    </item>
+  </channel>
+</rss>

@@ -2,73 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kinnaman</title>
-    <link>http://kinnaman.net/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>gaming</title>
-      <link>http://kinnaman.net/categories/gaming/</link>
+      <title>Gaming</title>
+      <link>http://localhost:1313/categories/gaming/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/categories/gaming/</guid>
+      <guid>http://localhost:1313/categories/gaming/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>technology</title>
-      <link>http://kinnaman.net/categories/technology/</link>
-      <pubDate>Thu, 24 Aug 2023 21:41:05 -0700</pubDate>
-      
-      <guid>http://kinnaman.net/categories/technology/</guid>
+      <title>Technology</title>
+      <link>http://localhost:1313/categories/technology/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/technology/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>misc</title>
-      <link>http://kinnaman.net/categories/misc/</link>
+      <title>Misc</title>
+      <link>http://localhost:1313/categories/misc/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/categories/misc/</guid>
+      <guid>http://localhost:1313/categories/misc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gaming speedrun</title>
-      <link>http://kinnaman.net/categories/gaming-speedrun/</link>
+      <title>Gaming Speedrun</title>
+      <link>http://localhost:1313/categories/gaming-speedrun/</link>
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/categories/gaming-speedrun/</guid>
+      <guid>http://localhost:1313/categories/gaming-speedrun/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DIY</title>
-      <link>http://kinnaman.net/categories/diy/</link>
+      <link>http://localhost:1313/categories/diy/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/categories/diy/</guid>
+      <guid>http://localhost:1313/categories/diy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>book-review</title>
-      <link>http://kinnaman.net/categories/book-review/</link>
+      <title>Book-Review</title>
+      <link>http://localhost:1313/categories/book-review/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/categories/book-review/</guid>
+      <guid>http://localhost:1313/categories/book-review/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>philosophy lifestyle</title>
-      <link>http://kinnaman.net/categories/philosophy-lifestyle/</link>
+      <title>Philosophy Lifestyle</title>
+      <link>http://localhost:1313/categories/philosophy-lifestyle/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/categories/philosophy-lifestyle/</guid>
+      <guid>http://localhost:1313/categories/philosophy-lifestyle/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

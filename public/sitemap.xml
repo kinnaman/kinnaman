@@ -2,267 +2,341 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://kinnaman.net/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-01T16:44:17-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2024-03-01_164416/</loc>
+    <lastmod>2024-03-01T16:44:17-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/</loc>
+    <lastmod>2024-03-01T16:44:17-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2024-03-01_122209/</loc>
+    <lastmod>2024-03-01T12:22:09-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2024-03-01_120604/</loc>
+    <lastmod>2024-03-01T12:06:05-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2023-12-04_042705/</loc>
+    <lastmod>2023-12-04T04:27:08-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2023-10-26_191734/</loc>
+    <lastmod>2023-10-26T19:17:37-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2023-10-25_124356/</loc>
+    <lastmod>2023-10-25T12:44:02-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blip/2023-10-23_225047/</loc>
     <lastmod>2023-10-23T22:50:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-23_225047/</loc>
-    <lastmod>2023-10-23T22:50:47-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://kinnaman.net/blip/</loc>
-    <lastmod>2023-10-23T22:50:47-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-23_221156/</loc>
+    <loc>http://localhost:1313/blip/2023-10-23_221156/</loc>
     <lastmod>2023-10-23T22:11:56-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-23_220305/</loc>
+    <loc>http://localhost:1313/blip/2023-10-23_220305/</loc>
     <lastmod>2023-10-23T22:03:05-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-23_195028/</loc>
+    <loc>http://localhost:1313/blip/2023-10-23_195028/</loc>
     <lastmod>2023-10-23T19:50:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-23_194704/</loc>
+    <loc>http://localhost:1313/blip/2023-10-23_194704/</loc>
     <lastmod>2023-10-23T19:47:04-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-22_190959/</loc>
+    <loc>http://localhost:1313/blip/2023-10-22_190959/</loc>
     <lastmod>2023-10-22T19:10:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-21_071256/</loc>
+    <loc>http://localhost:1313/blip/2023-10-21_071256/</loc>
     <lastmod>2023-10-21T07:12:56-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2023-10-21_070329/</loc>
+    <loc>http://localhost:1313/blip/2023-10-21_070329/</loc>
     <lastmod>2023-10-21T07:03:29-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/2/</loc>
+    <loc>http://localhost:1313/blip/2/</loc>
     <lastmod>2023-10-21T06:32:43-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blip/a/</loc>
+    <loc>http://localhost:1313/blip/a/</loc>
     <lastmod>2023-10-20T23:43:32-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/gaming/</loc>
+    <loc>http://localhost:1313/tags/computer-it-programming/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/gaming-minecraft/</loc>
+    <loc>http://localhost:1313/blog/2024-03-01-vatsim-study/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2023-08-28-minecraft-world/</loc>
+    <loc>http://localhost:1313/categories/gaming/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/</loc>
+    <loc>http://localhost:1313/tags/gaming-minecraft/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/computer-it-gaming-msfs2020/</loc>
+    <loc>http://localhost:1313/blog/2023-08-28-vs-code-windows/</loc>
+    <lastmod>2023-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/2023-08-28-minecraft-world/</loc>
+    <lastmod>2023-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/technology/</loc>
+    <lastmod>2023-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/vatsim-gaming/</loc>
+    <lastmod>2023-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/computer-it-gaming-msfs2020/</loc>
     <lastmod>2023-08-24T21:41:05-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2023-08-24-pc-build/</loc>
+    <loc>http://localhost:1313/blog/2023-08-24-pc-build/</loc>
     <lastmod>2023-08-24T21:41:05-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/technology/</loc>
-    <lastmod>2023-08-24T21:41:05-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://kinnaman.net/tags/gaming-skyrim-mods/</loc>
+    <loc>http://localhost:1313/tags/gaming-skyrim-mods/</loc>
     <lastmod>2023-04-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</loc>
+    <loc>http://localhost:1313/blog/2023-04-23-skyrim-mods/</loc>
     <lastmod>2023-04-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-12-15-christmas-tree-timelapse/</loc>
+    <loc>http://localhost:1313/tags/holiday/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/2023-01-02-newyears/</loc>
+    <lastmod>2023-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/health-skincare/</loc>
+    <lastmod>2022-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/2022-12-16-skincare/</loc>
+    <lastmod>2022-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/2022-12-15-christmas-tree-timelapse/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/life-holidays/</loc>
+    <loc>http://localhost:1313/tags/life-holidays/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/misc/</loc>
+    <loc>http://localhost:1313/categories/misc/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/gaming-speedrun/</loc>
+    <loc>http://localhost:1313/categories/gaming-speedrun/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</loc>
+    <loc>http://localhost:1313/blog/2022-08-06-hollowknight-first-run/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-06-25-redstone-mods/</loc>
+    <loc>http://localhost:1313/blog/2022-06-25-redstone-mods/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/minecraft-gaming/</loc>
+    <loc>http://localhost:1313/tags/minecraft-gaming/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2022-05-29T20:51:15-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/services/</loc>
+    <loc>http://localhost:1313/services/</loc>
     <lastmod>2022-05-29T20:51:08-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/cad-desk-accessories/</loc>
+    <loc>http://localhost:1313/tags/cad-desk-accessories/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-05-06-cardboard-laptop-stand/</loc>
+    <loc>http://localhost:1313/blog/2022-05-06-cardboard-laptop-stand/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/diy/</loc>
+    <loc>http://localhost:1313/categories/diy/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/book-review/</loc>
+    <loc>http://localhost:1313/categories/book-review/</loc>
     <lastmod>2022-04-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-04-30-war-of-the-worlds/</loc>
+    <loc>http://localhost:1313/blog/2022-04-30-war-of-the-worlds/</loc>
     <lastmod>2022-04-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/minecraft/</loc>
+    <loc>http://localhost:1313/tags/minecraft/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-04-16-minecraftstand/</loc>
+    <loc>http://localhost:1313/blog/2022-04-16-minecraftstand/</loc>
     <lastmod>2022-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-04-07-atomichabits/</loc>
+    <loc>http://localhost:1313/blog/2022-04-07-atomichabits/</loc>
     <lastmod>2022-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/book-halloween/</loc>
+    <loc>http://localhost:1313/tags/book-halloween/</loc>
     <lastmod>2022-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/categories/philosophy-lifestyle/</loc>
+    <loc>http://localhost:1313/categories/philosophy-lifestyle/</loc>
     <lastmod>2022-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-03-29-something-wicked/</loc>
+    <loc>http://localhost:1313/blog/2022-03-29-something-wicked/</loc>
     <lastmod>2022-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-03-29-virtues/</loc>
+    <loc>http://localhost:1313/blog/2022-03-29-virtues/</loc>
     <lastmod>2022-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-03-17-githubpages/</loc>
+    <loc>http://localhost:1313/blog/2022-03-17-githubpages/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/web-dev/</loc>
+    <loc>http://localhost:1313/tags/web-dev/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-02-24-webdev/</loc>
+    <loc>http://localhost:1313/blog/2022-02-24-webdev/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/web-development/</loc>
+    <loc>http://localhost:1313/tags/web-development/</loc>
     <lastmod>2022-02-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/gbww-literature-reading-self-education/</loc>
+    <loc>http://localhost:1313/tags/gbww-literature-reading-self-education/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-02-22-gbww/</loc>
+    <loc>http://localhost:1313/blog/2022-02-22-gbww/</loc>
     <lastmod>2022-02-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2022-02-13T00:01:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/blog/2022-02-13-skyrim/</loc>
+    <loc>http://localhost:1313/blog/2022-02-13-skyrim/</loc>
     <lastmod>2022-02-13T00:01:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://kinnaman.net/portfolio/</loc>
+    <loc>http://localhost:1313/blog/draft-deepfakes/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

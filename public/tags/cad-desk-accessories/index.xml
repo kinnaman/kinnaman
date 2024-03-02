@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CAD desk-accessories on Kinnaman</title>
-    <link>http://kinnaman.net/tags/cad-desk-accessories/</link>
-    <description>Recent content in CAD desk-accessories on Kinnaman</description>
+    <title>CAD Desk-Accessories on Kinnaman</title>
+    <link>http://localhost:1313/tags/cad-desk-accessories/</link>
+    <description>Recent content in CAD Desk-Accessories on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://kinnaman.net/tags/cad-desk-accessories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cad-desk-accessories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cardboard Laptop Stand</title>
-      <link>http://kinnaman.net/blog/2022-05-06-cardboard-laptop-stand/</link>
+      <link>http://localhost:1313/blog/2022-05-06-cardboard-laptop-stand/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://kinnaman.net/blog/2022-05-06-cardboard-laptop-stand/</guid>
+      <guid>http://localhost:1313/blog/2022-05-06-cardboard-laptop-stand/</guid>
       <description>At work there is a gross excess of cardboard laying around and taking up a large amount of space. To kill two birds with one stone I created a simple cardboard laptop stand that only creates minutes to build. Be sure to print out the stencil then use it to trace onto the cardboard. Afterwords, cut the pieces and assemble together to hold your laptop. Took minutes, looks better than a ream of paper, and didn&amp;rsquo;t cost a dime.</description>
     </item>
-    
   </channel>
 </rss>
