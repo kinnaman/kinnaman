@@ -2,290 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kinnaman</title>
-    <link>http://localhost:1313/</link>
+    <link>http://kinnaman.net/</link>
     <description>Recent content on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 16:44:17 -0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://kinnaman.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2024-03-01_164416/</link>
+      <link>http://kinnaman.net/blip/2024-03-01_164416/</link>
       <pubDate>Fri, 01 Mar 2024 16:44:17 -0800</pubDate>
-      <guid>http://localhost:1313/blip/2024-03-01_164416/</guid>
+      <guid>http://kinnaman.net/blip/2024-03-01_164416/</guid>
       <description>I am happy with the tweaking for today. I have other projects I wish to work on. This will suffice for writing notes and making new blog posts.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2024-03-01_122209/</link>
+      <link>http://kinnaman.net/blip/2024-03-01_122209/</link>
       <pubDate>Fri, 01 Mar 2024 12:22:09 -0800</pubDate>
-      <guid>http://localhost:1313/blip/2024-03-01_122209/</guid>
+      <guid>http://kinnaman.net/blip/2024-03-01_122209/</guid>
       <description>I fixed a bug I was running into on my own system with regard to my &amp;ldquo;blip.sh&amp;rdquo; script. This taught me to test my inputs before executing a script without making assumptions about the system. Still, my blog post files didn&amp;rsquo;t work on windows because they had the incorrect naming schema. Apparently, Windows doesn&amp;rsquo;t allow colons in the name. So I used tr which translates or deletes characters to loop through the file names and remove all the colons.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2024-03-01_120604/</link>
+      <link>http://kinnaman.net/blip/2024-03-01_120604/</link>
       <pubDate>Fri, 01 Mar 2024 12:06:05 -0800</pubDate>
-      <guid>http://localhost:1313/blip/2024-03-01_120604/</guid>
+      <guid>http://kinnaman.net/blip/2024-03-01_120604/</guid>
       <description>I finally have WSL set up on my new desktop. It wasn&amp;rsquo;t fun reinstalling all my programs and moving my data, but I&amp;rsquo;m glad it&amp;rsquo;s finally finished. Now I&amp;rsquo;m working on my flight sim blog post and some other fun activities. Perhaps I will update how my build went and other thoughts about Windows.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-12-04_042705/</link>
+      <link>http://kinnaman.net/blip/2023-12-04_042705/</link>
       <pubDate>Mon, 04 Dec 2023 04:27:08 -0800</pubDate>
-      <guid>http://localhost:1313/blip/2023-12-04_042705/</guid>
+      <guid>http://kinnaman.net/blip/2023-12-04_042705/</guid>
       <description>Virtually all of my electronics are old but well running, which is both great and frustrating. It means justifying purchasing new PC parts, cameras, or cell phones is impossible. However it does mean I save money and can wait longer to buy something new down the road, which means better hardware for the same price. Most of my gripes about the hardware I currently own simply revolve around gaming, especially for portability or playing demanding titles.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-26_191734/</link>
+      <link>http://kinnaman.net/blip/2023-10-26_191734/</link>
       <pubDate>Thu, 26 Oct 2023 19:17:37 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-26_191734/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-26_191734/</guid>
       <description>I am starting job applications for software engineering and devops positions. In the meanwhile I will continue doing both web and game design within my personal time. Thankfully my career in IT still engages me, so I will continue studying networking and sysadmin skills for fun if I do change roles in tech.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-25_124356/</link>
+      <link>http://kinnaman.net/blip/2023-10-25_124356/</link>
       <pubDate>Wed, 25 Oct 2023 12:44:02 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-25_124356/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-25_124356/</guid>
       <description>Today I&amp;rsquo;m trying to set up my server on an ARM single board computer. I have an H616 based android TV box that I want to repurpose for email and web hosting. I&amp;rsquo;m flashing a micro-SD card at a coffee shop so it&amp;rsquo;ll be awhile before I can troubleshoot any potential hiccups that it ran into. There are several repositories I&amp;rsquo;ve found for Armbian, but the one labled as H616 is well worth a try.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-23_225047/</link>
+      <link>http://kinnaman.net/blip/2023-10-23_225047/</link>
       <pubDate>Mon, 23 Oct 2023 22:50:47 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-23_225047/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-23_225047/</guid>
       <description>I successfully added blips to my blog. I&amp;rsquo;m pretty happy with that. While doing the edits tonight, it is clear my Neovim configs need an update as well. But it&amp;rsquo;s getting late so I&amp;rsquo;ll postpone that for now. It isn&amp;rsquo;t good to become sidetracked so quickly.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-23_221156/</link>
+      <link>http://kinnaman.net/blip/2023-10-23_221156/</link>
       <pubDate>Mon, 23 Oct 2023 22:11:56 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-23_221156/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-23_221156/</guid>
       <description>Time to add the blip section to my blog&amp;rsquo;s nav. Actually customizing it and adding it as a sub-menu item will come later.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-23_220305/</link>
+      <link>http://kinnaman.net/blip/2023-10-23_220305/</link>
       <pubDate>Mon, 23 Oct 2023 22:03:05 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-23_220305/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-23_220305/</guid>
       <description>Found a few nice little animations for websites like like this handwritten animation, a nice submit button, perlin art, and some decent svg art</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-23_195028/</link>
+      <link>http://kinnaman.net/blip/2023-10-23_195028/</link>
       <pubDate>Mon, 23 Oct 2023 19:50:31 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-23_195028/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-23_195028/</guid>
       <description>I&amp;rsquo;m getting a little tired of creating blips using the full ./blip.sh typeout. I would rather be able to write &amp;ldquo;blip&amp;rdquo; in the terminal, so I&amp;rsquo;m adding it to my .bashrc</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-23_194704/</link>
+      <link>http://kinnaman.net/blip/2023-10-23_194704/</link>
       <pubDate>Mon, 23 Oct 2023 19:47:04 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-23_194704/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-23_194704/</guid>
       <description>Rewatching the 2004 Van Helsing. It reminds me of World of Warcraft&amp;rsquo;s worgen. I think I&amp;rsquo;ll resubscribe to play more of Dragonflight. I was having fun with that expansion but ran out of time to play.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-22_190959/</link>
+      <link>http://kinnaman.net/blip/2023-10-22_190959/</link>
       <pubDate>Sun, 22 Oct 2023 19:10:00 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-22_190959/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-22_190959/</guid>
       <description>After trying the Quest 3 at Bestbuy, I was set on purchasing a Quest for home gaming and to tinker with. So yesterday I purchased the Quest 2, as I do not have a great desire for the XR features yet and it would be ~$200 less to purchase. I was wrong to choose the older model, as I quickly felt nausea while using the Quest 2. I&amp;rsquo;m going to return the Quest 2 and spend the extra for the Quest 3.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-21_071256/</link>
+      <link>http://kinnaman.net/blip/2023-10-21_071256/</link>
       <pubDate>Sat, 21 Oct 2023 07:12:56 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-21_071256/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-21_071256/</guid>
       <description>Now that the content generation workflow for blips is streamlined, I need to create their own layouts. That will be for this evening or another day as I have to get ready for work.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2023-10-21_070329/</link>
+      <link>http://kinnaman.net/blip/2023-10-21_070329/</link>
       <pubDate>Sat, 21 Oct 2023 07:03:29 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2023-10-21_070329/</guid>
+      <guid>http://kinnaman.net/blip/2023-10-21_070329/</guid>
       <description>Made a simple bash script for creating blips in linux.&#xA;#! /bin/bash DATE=$(date +%F) TIME=$(date +%T) FILE_NAME=$DATE\_$TIME.md hugo new blip/$FILE_NAME $EDITOR content/blip/$FILE_NAME </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/2/</link>
+      <link>http://kinnaman.net/blip/2/</link>
       <pubDate>Sat, 21 Oct 2023 06:32:43 -0700</pubDate>
-      <guid>http://localhost:1313/blip/2/</guid>
+      <guid>http://kinnaman.net/blip/2/</guid>
       <description>I like the blips or &amp;lsquo;micro posts&amp;rsquo; idea. I just need a script to create the filenames as labelling them 1.md, 2.md, 3.md, etc. is inefficient.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blip/a/</link>
+      <link>http://kinnaman.net/blip/a/</link>
       <pubDate>Fri, 20 Oct 2023 23:43:32 -0700</pubDate>
-      <guid>http://localhost:1313/blip/a/</guid>
+      <guid>http://kinnaman.net/blip/a/</guid>
       <description>I created a &amp;lsquo;blips&amp;rsquo; directory to be used similarly to how Twitter or Threads is intended. Quick little posts of passing thoughts without much effort. I&amp;rsquo;m grateful that creating static websites and blogs has become so accessible. Throughout my time in IT, I&amp;rsquo;ve learned that digital literacy in the general public is much lower than a younger me would have guessed. That&amp;rsquo;s okay though as it has been for both work and pleasure to help others with troubleshooting or translating the technical jargon to simpler language.</description>
     </item>
     <item>
       <title>From Sim to Sky: A Comprehensive 12-Week Flight Sim Training Plan for Aspiring Pilots</title>
-      <link>http://localhost:1313/blog/2024-03-01-vatsim-study/</link>
+      <link>http://kinnaman.net/blog/2024-03-01-vatsim-study/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2024-03-01-vatsim-study/</guid>
+      <guid>http://kinnaman.net/blog/2024-03-01-vatsim-study/</guid>
       <description>Creating a structured study and practice plan for learning general aviation through flight simulation is a fantastic way to maximize knowledge transfer to real-world flying while maintaining realistic immersion. Here&amp;rsquo;s a comprehensive plan, including resources and a suggested schedule. This plan assumes you&amp;rsquo;re starting from scratch but aims to build a solid foundation in both theoretical knowledge and practical skills.&#xA;Phase 1: Groundwork and Basic Theory (1-2 Weeks) Objective: Understand the basics of flight, aircraft operations, and navigation.</description>
     </item>
     <item>
-      <title>Linux vs Visual Studio Code on Windows</title>
-      <link>http://localhost:1313/blog/2023-08-28-vs-code-windows/</link>
-      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-08-28-vs-code-windows/</guid>
-      <description>Turns out&amp;hellip; Not mutually exclusive. With WSL, anything is possible! /sacrcasm</description>
-    </item>
-    <item>
       <title>Minecraft With Friends</title>
-      <link>http://localhost:1313/blog/2023-08-28-minecraft-world/</link>
+      <link>http://kinnaman.net/blog/2023-08-28-minecraft-world/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-08-28-minecraft-world/</guid>
+      <guid>http://kinnaman.net/blog/2023-08-28-minecraft-world/</guid>
       <description>My friends and I have been playing Minecraft together over the past two weeks. Smoke from the fires in Canada have prevented us from enjoying the outdoors, so the traditionally winter game for us as a group has now occupied a portion of the summer. I conjoined the old world save we had with MCA Selector and hosted it on my old desktop PC for the first week. Unfortunately our attempts at fighting the Wither kept failing as the server would lag too much for us to shoot projectiles at it in its first phase.</description>
     </item>
     <item>
       <title>PC Build for VR Flight Simulators</title>
-      <link>http://localhost:1313/blog/2023-08-24-pc-build/</link>
+      <link>http://kinnaman.net/blog/2023-08-24-pc-build/</link>
       <pubDate>Thu, 24 Aug 2023 21:41:05 -0700</pubDate>
-      <guid>http://localhost:1313/blog/2023-08-24-pc-build/</guid>
+      <guid>http://kinnaman.net/blog/2023-08-24-pc-build/</guid>
       <description>Here is my PC part list for a capable Microsoft Flight Simulator 2020 vr machine. It trounces my old PC in performance. Coupled with the new Meta Quest 3, it should make for an extremely immersive experience. My old PC is going to be used as a server, with the GPU used for producing more heat when my room gets cold.&#xA;PCPartPicker Part List Type Item Price CPU AMD Ryzen 9 5900X 3.</description>
     </item>
     <item>
       <title>Skyrim Mods List</title>
-      <link>http://localhost:1313/blog/2023-04-23-skyrim-mods/</link>
+      <link>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-04-23-skyrim-mods/</guid>
+      <guid>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</guid>
       <description>I play Skyrim Special Edition that&amp;rsquo;s sold on Steam. Using NexusMods and Vortex, it is extremely easy to install and use countless free mods created by an immensely talented community. Below are my favorite mods to enhance the vanilla experience without deviating too far. It does raise the system requirements, but virtually any discreet graphics card will run all the mods at a playable framerate.&#xA;Mod List Skyrim 202X 9.0 Address Library for SKSE Plugins - All in one (special edition) Alternate Start - Live Another Life Enhanced Lights and FX Forces New Idles in Skyrim SE - FNIS SE - FNIS Behavior SE 7_6 FranklyHD Dawnguard Armor and Weapons Immersive Amors 8.</description>
     </item>
     <item>
-      <title>New Years Reading List 2023</title>
-      <link>http://localhost:1313/blog/2023-01-02-newyears/</link>
-      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-01-02-newyears/</guid>
-      <description>This year was a special one with many wonderful memories made.&#xA;2022 Retrospective 2023 Reading List </description>
-    </item>
-    <item>
-      <title>Skincare Routine For Very Sensative Skin</title>
-      <link>http://localhost:1313/blog/2022-12-16-skincare/</link>
-      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-12-16-skincare/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Christmas Tree Decorating</title>
-      <link>http://localhost:1313/blog/2022-12-15-christmas-tree-timelapse/</link>
+      <link>http://kinnaman.net/blog/2022-12-15-christmas-tree-timelapse/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-12-15-christmas-tree-timelapse/</guid>
+      <guid>http://kinnaman.net/blog/2022-12-15-christmas-tree-timelapse/</guid>
       <description>Faith and I spent a few hours decorating our Christmas tree today. During which, I set up my camera on 2 second intervals to take snapshots of us putting it together. With a total of over 4,000 images captured in RAW the timelapse photos took over 90GB of space. I used Darktable to correct the white balance and exposure slightly, then converted the images to JPEG. Each photo went from 22MB to 500KB, and from there I used Kdenlive to make a webm video that only took 138MB.</description>
     </item>
     <item>
       <title>Hollow Knight Speedrun 3:40:04</title>
-      <link>http://localhost:1313/blog/2022-08-06-hollowknight-first-run/</link>
+      <link>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</link>
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-08-06-hollowknight-first-run/</guid>
+      <guid>http://kinnaman.net/blog/2022-08-06-hollowknight-first-run/</guid>
       <description>I successfully completed the Speedrunner 2 achievement for Hollow Knight. To gain the achievement the game has to be beaten under 5 hours. At 3 hours and 40 minutes I succeeded, but it is very slow for a speedrun - filled with mistakes and cheese strategies. For now, I am happy with what I&amp;rsquo;ve accomplished but part of me wants to practice until I can run it without dying accidentally.</description>
     </item>
     <item>
       <title>10 Best Mods for Minecraft Building</title>
-      <link>http://localhost:1313/blog/2022-06-25-redstone-mods/</link>
+      <link>http://kinnaman.net/blog/2022-06-25-redstone-mods/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-06-25-redstone-mods/</guid>
+      <guid>http://kinnaman.net/blog/2022-06-25-redstone-mods/</guid>
       <description>I am the designated industrialist in my Minecraft realm. I enjoy the logistical and technical challenges in automating resource gathering, leaving most of the artistic building up to my friends. These are the mods I use in order to get the most done with the least amount of my time invested actively managing my world.&#xA;Mods Baritone Lightmatica Tweakaroo MiniHUD Xaero&amp;rsquo;s Minimap and Xaero&amp;rsquo;s World Map Item-Scroller Custom Clients Forge Impact Client Fabric Launcher Optifine </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://kinnaman.net/about/</link>
       <pubDate>Sun, 29 May 2022 20:51:15 -0700</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://kinnaman.net/about/</guid>
       <description>This is the personal website of Morgan Kinnaman, an IT professional and developer who loves to learn and build.&#xA;I spend my free time designing, building, fishing, motorcycling, reading, and playing chess.&#xA;This site was built with Hugo and Bootstrap. The sourcecode is found on Github.</description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/services/</link>
+      <link>http://kinnaman.net/services/</link>
       <pubDate>Sun, 29 May 2022 20:51:08 -0700</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>http://kinnaman.net/services/</guid>
       <description></description>
     </item>
     <item>
       <title>Cardboard Laptop Stand</title>
-      <link>http://localhost:1313/blog/2022-05-06-cardboard-laptop-stand/</link>
+      <link>http://kinnaman.net/blog/2022-05-06-cardboard-laptop-stand/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-05-06-cardboard-laptop-stand/</guid>
+      <guid>http://kinnaman.net/blog/2022-05-06-cardboard-laptop-stand/</guid>
       <description>At work there is a gross excess of cardboard laying around and taking up a large amount of space. To kill two birds with one stone I created a simple cardboard laptop stand that only creates minutes to build. Be sure to print out the stencil then use it to trace onto the cardboard. Afterwords, cut the pieces and assemble together to hold your laptop. Took minutes, looks better than a ream of paper, and didn&amp;rsquo;t cost a dime.</description>
     </item>
     <item>
       <title>War Of The Worlds - Book Review</title>
-      <link>http://localhost:1313/blog/2022-04-30-war-of-the-worlds/</link>
+      <link>http://kinnaman.net/blog/2022-04-30-war-of-the-worlds/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-04-30-war-of-the-worlds/</guid>
+      <guid>http://kinnaman.net/blog/2022-04-30-war-of-the-worlds/</guid>
       <description>War of the Worlds by H.G. Wells is a sci-fi horror classic. It&amp;rsquo;s a story of a Martian invasion narrated by an unnamed 19th century man in England. My first reading of this book was when I was a child in 2005. I scarce remembered it other than it was far different than the movie adaptation starring Tom Cruise.&#xA;The original book is far more interesting than the movie, having better characters, stronger themes, and the focus of the story on the protagonist&amp;rsquo;s desire to find his wife out of love instead of desire to get rid of his kids.</description>
     </item>
     <item>
       <title>Simple Minecraft Merchant Stand</title>
-      <link>http://localhost:1313/blog/2022-04-16-minecraftstand/</link>
+      <link>http://kinnaman.net/blog/2022-04-16-minecraftstand/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-04-16-minecraftstand/</guid>
+      <guid>http://kinnaman.net/blog/2022-04-16-minecraftstand/</guid>
       <description>&#xA;This extremely simple design was made for my Minecraft Realm&amp;rsquo;s trading zone. Use string to suspend the carpet when it is not above a fence or sign. Unfortunately I am unable to provide a build guide step by step right now, but I will add it in some later post.&#xA;Materials List Block Name Quantity Barrel 3 Oak Trap Door 1 Stone Brick Wall 2 Spruce Stairs 4 Oak Fence 4 Birch Sign 1 Carpet 20 Oak Gate 3 String 12 </description>
     </item>
     <item>
       <title>Atomic Habits - Review</title>
-      <link>http://localhost:1313/blog/2022-04-07-atomichabits/</link>
+      <link>http://kinnaman.net/blog/2022-04-07-atomichabits/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-04-07-atomichabits/</guid>
+      <guid>http://kinnaman.net/blog/2022-04-07-atomichabits/</guid>
       <description>After noticing the popularity and catchy title, I picked up Atom Habits written by James Clear. To put it briefly, it was a moderate disappointment. The book is undeserving of a full read for most people, which is better than I can say about most self-help books since they give harmful advice. The actual substance of the book could be drawn from reading the end chapter summaries and it would save the reader a gross amount of time.</description>
     </item>
     <item>
       <title>Something Wicked This Way Comes - Book Review</title>
-      <link>http://localhost:1313/blog/2022-03-29-something-wicked/</link>
+      <link>http://kinnaman.net/blog/2022-03-29-something-wicked/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-03-29-something-wicked/</guid>
+      <guid>http://kinnaman.net/blog/2022-03-29-something-wicked/</guid>
       <description>Rating: 3 out of 5 After a decade since I last read this book and twice the age, my experience with this story has changed. Originally when I read it as a boy, the story felt more magical and eerie. I was more focused on the carnival and its mysteries than the characters and their personal growth. I hadn&amp;rsquo;t given thought about how Bradbury&amp;rsquo;s perspective of the world, which hasn&amp;rsquo;t aged well over the decades, is insensitive to people dissimilar to him.</description>
     </item>
     <item>
       <title>Virtue</title>
-      <link>http://localhost:1313/blog/2022-03-29-virtues/</link>
+      <link>http://kinnaman.net/blog/2022-03-29-virtues/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-03-29-virtues/</guid>
+      <guid>http://kinnaman.net/blog/2022-03-29-virtues/</guid>
       <description>Virtue is a habit and like all habits it can be conditioned. Below are the most important virtues for me. It is adopted partially from the 13 virtues of Benjamin Franklin, Buddhist virtues, and the 7 Christian virtues I was taught as a child.&#xA;Personal Virtues Temperance. Eat not to dullness; drink not to elevation. Silence. Speak not but what may benefit others or yourself; avoid trifling conversation. Resolution. Resolve to perform what you ought; perform without fail what you resolve.</description>
     </item>
     <item>
       <title>Sane Jekyll &amp; NPM Setup</title>
-      <link>http://localhost:1313/blog/2022-03-17-githubpages/</link>
+      <link>http://kinnaman.net/blog/2022-03-17-githubpages/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-03-17-githubpages/</guid>
+      <guid>http://kinnaman.net/blog/2022-03-17-githubpages/</guid>
       <description>Jekyll&amp;rsquo;s developer and user friendly toolkit quickly streamlines building quality static blogs and websites. However, including Javascript sourced from node_modules can cause issues if you are hosting on a site like Github Pages. Resolving the complications is relatively straight forward. Not only will the github repository stay lean, but the code will work in safe mode as well.&#xA;The JavaScript from node_modules will be slimmed and output into the source directory with any loaded dependencies.</description>
     </item>
     <item>
       <title>Web Development Resources</title>
-      <link>http://localhost:1313/blog/2022-02-24-webdev/</link>
+      <link>http://kinnaman.net/blog/2022-02-24-webdev/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-02-24-webdev/</guid>
+      <guid>http://kinnaman.net/blog/2022-02-24-webdev/</guid>
       <description>Building websites can be learned online for free. Though in person mentoring can be useful, one of the most important skills in IT is the ability to answer your own questions. This is a resource for others to reference if they&amp;rsquo;re curious about web development. It is loosely based off of university code camps syllabi.&#xA;I used many of these same resources when I taught myself and friends how to do simple web development.</description>
     </item>
     <item>
       <title>Great Books of the Western World</title>
-      <link>http://localhost:1313/blog/2022-02-22-gbww/</link>
+      <link>http://kinnaman.net/blog/2022-02-22-gbww/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-02-22-gbww/</guid>
+      <guid>http://kinnaman.net/blog/2022-02-22-gbww/</guid>
       <description>Former president of Harvard University, Charles Eliot, claimed people could receive a liberal education by reading 15 minutes a day. So he decided to make a serialized list of works for those interested to learn. He compiled The Harvard Classics and advertised the anthology with great success. This directly inspired Mortimer J Adler and John Erskine at Columbia University to make an improved collection called The Great Books of the Western World (GBWW).</description>
     </item>
     <item>
       <title>Skyrim on Linux without Steam</title>
-      <link>http://localhost:1313/blog/2022-02-13-skyrim/</link>
+      <link>http://kinnaman.net/blog/2022-02-13-skyrim/</link>
       <pubDate>Sun, 13 Feb 2022 00:01:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-02-13-skyrim/</guid>
+      <guid>http://kinnaman.net/blog/2022-02-13-skyrim/</guid>
       <description>Setting up Skyrim on Linux is mightily easy&#xA;The only error after set up is tabbing out of game causes a freeze.&#xA;Download the game, wine, and wine tools. $ sudo apt install wine winetricks&#xA;Run winetricks and set up a 64-bit instance on Windows7 with d3dx9_42, xact64, and vcrun2019 installed. Installing both the skyrimSE.exe and skyrimSELauncher.exe are required to launch the game. Use ufw in Ubuntu if you run into issues from the DRM trying to connect to the internet in order to block it, as that is the default firewall in many distros.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blog/draft-deepfakes/</link>
+      <link>http://kinnaman.net/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/draft-deepfakes/</guid>
-      <description>https://github.com/s0md3v/roop</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/</guid>
+      <guid>http://kinnaman.net/portfolio/</guid>
       <description>This is a page.</description>
     </item>
   </channel>

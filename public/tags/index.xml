@@ -2,122 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kinnaman</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://kinnaman.net/tags/</link>
     <description>Recent content in Tags on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Computer, IT, Programming</title>
-      <link>http://localhost:1313/tags/computer-it-programming/</link>
-      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/computer-it-programming/</guid>
-      <description></description>
-    </item>
+    <atom:link href="http://kinnaman.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming, Minecraft</title>
-      <link>http://localhost:1313/tags/gaming-minecraft/</link>
+      <link>http://kinnaman.net/tags/gaming-minecraft/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gaming-minecraft/</guid>
+      <guid>http://kinnaman.net/tags/gaming-minecraft/</guid>
       <description></description>
     </item>
     <item>
-      <title>VATSIM, Gaming</title>
-      <link>http://localhost:1313/tags/vatsim-gaming/</link>
+      <title>VATSIM, Gaming, Gpt</title>
+      <link>http://kinnaman.net/tags/vatsim-gaming-gpt/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vatsim-gaming/</guid>
+      <guid>http://kinnaman.net/tags/vatsim-gaming-gpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Computer, IT, Gaming, MSFS2020</title>
-      <link>http://localhost:1313/tags/computer-it-gaming-msfs2020/</link>
+      <link>http://kinnaman.net/tags/computer-it-gaming-msfs2020/</link>
       <pubDate>Thu, 24 Aug 2023 21:41:05 -0700</pubDate>
-      <guid>http://localhost:1313/tags/computer-it-gaming-msfs2020/</guid>
+      <guid>http://kinnaman.net/tags/computer-it-gaming-msfs2020/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaming Skyrim Mods</title>
-      <link>http://localhost:1313/tags/gaming-skyrim-mods/</link>
+      <link>http://kinnaman.net/tags/gaming-skyrim-mods/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gaming-skyrim-mods/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Holiday</title>
-      <link>http://localhost:1313/tags/holiday/</link>
-      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/holiday/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Health Skincare</title>
-      <link>http://localhost:1313/tags/health-skincare/</link>
-      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/health-skincare/</guid>
+      <guid>http://kinnaman.net/tags/gaming-skyrim-mods/</guid>
       <description></description>
     </item>
     <item>
       <title>Life Holidays</title>
-      <link>http://localhost:1313/tags/life-holidays/</link>
+      <link>http://kinnaman.net/tags/life-holidays/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/life-holidays/</guid>
+      <guid>http://kinnaman.net/tags/life-holidays/</guid>
       <description></description>
     </item>
     <item>
       <title>Minecraft Gaming</title>
-      <link>http://localhost:1313/tags/minecraft-gaming/</link>
+      <link>http://kinnaman.net/tags/minecraft-gaming/</link>
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/minecraft-gaming/</guid>
+      <guid>http://kinnaman.net/tags/minecraft-gaming/</guid>
       <description></description>
     </item>
     <item>
       <title>CAD Desk-Accessories</title>
-      <link>http://localhost:1313/tags/cad-desk-accessories/</link>
+      <link>http://kinnaman.net/tags/cad-desk-accessories/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cad-desk-accessories/</guid>
+      <guid>http://kinnaman.net/tags/cad-desk-accessories/</guid>
       <description></description>
     </item>
     <item>
       <title>Minecraft</title>
-      <link>http://localhost:1313/tags/minecraft/</link>
+      <link>http://kinnaman.net/tags/minecraft/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/minecraft/</guid>
+      <guid>http://kinnaman.net/tags/minecraft/</guid>
       <description></description>
     </item>
     <item>
       <title>Book Halloween</title>
-      <link>http://localhost:1313/tags/book-halloween/</link>
+      <link>http://kinnaman.net/tags/book-halloween/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/book-halloween/</guid>
+      <guid>http://kinnaman.net/tags/book-halloween/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Dev</title>
-      <link>http://localhost:1313/tags/web-dev/</link>
+      <link>http://kinnaman.net/tags/web-dev/</link>
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web-dev/</guid>
+      <guid>http://kinnaman.net/tags/web-dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Development</title>
-      <link>http://localhost:1313/tags/web-development/</link>
+      <link>http://kinnaman.net/tags/web-development/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web-development/</guid>
+      <guid>http://kinnaman.net/tags/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Gbww Literature Reading Self-Education</title>
-      <link>http://localhost:1313/tags/gbww-literature-reading-self-education/</link>
+      <link>http://kinnaman.net/tags/gbww-literature-reading-self-education/</link>
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gbww-literature-reading-self-education/</guid>
+      <guid>http://kinnaman.net/tags/gbww-literature-reading-self-education/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>http://kinnaman.net/tags/linux/</link>
       <pubDate>Sun, 13 Feb 2022 00:01:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>http://kinnaman.net/tags/linux/</guid>
       <description></description>
     </item>
   </channel>

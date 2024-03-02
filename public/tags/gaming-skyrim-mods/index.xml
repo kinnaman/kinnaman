@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gaming Skyrim Mods on Kinnaman</title>
-    <link>http://localhost:1313/tags/gaming-skyrim-mods/</link>
+    <link>http://kinnaman.net/tags/gaming-skyrim-mods/</link>
     <description>Recent content in Gaming Skyrim Mods on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gaming-skyrim-mods/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://kinnaman.net/tags/gaming-skyrim-mods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Skyrim Mods List</title>
-      <link>http://localhost:1313/blog/2023-04-23-skyrim-mods/</link>
+      <link>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-04-23-skyrim-mods/</guid>
+      <guid>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</guid>
       <description>I play Skyrim Special Edition that&amp;rsquo;s sold on Steam. Using NexusMods and Vortex, it is extremely easy to install and use countless free mods created by an immensely talented community. Below are my favorite mods to enhance the vanilla experience without deviating too far. It does raise the system requirements, but virtually any discreet graphics card will run all the mods at a playable framerate.&#xA;Mod List Skyrim 202X 9.0 Address Library for SKSE Plugins - All in one (special edition) Alternate Start - Live Another Life Enhanced Lights and FX Forces New Idles in Skyrim SE - FNIS SE - FNIS Behavior SE 7_6 FranklyHD Dawnguard Armor and Weapons Immersive Amors 8.</description>
     </item>
   </channel>

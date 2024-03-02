@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gaming on Kinnaman</title>
-    <link>http://localhost:1313/categories/gaming/</link>
+    <link>http://kinnaman.net/categories/gaming/</link>
     <description>Recent content in Gaming on Kinnaman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://kinnaman.net/categories/gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Sim to Sky: A Comprehensive 12-Week Flight Sim Training Plan for Aspiring Pilots</title>
-      <link>http://localhost:1313/blog/2024-03-01-vatsim-study/</link>
+      <link>http://kinnaman.net/blog/2024-03-01-vatsim-study/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2024-03-01-vatsim-study/</guid>
+      <guid>http://kinnaman.net/blog/2024-03-01-vatsim-study/</guid>
       <description>Creating a structured study and practice plan for learning general aviation through flight simulation is a fantastic way to maximize knowledge transfer to real-world flying while maintaining realistic immersion. Here&amp;rsquo;s a comprehensive plan, including resources and a suggested schedule. This plan assumes you&amp;rsquo;re starting from scratch but aims to build a solid foundation in both theoretical knowledge and practical skills.&#xA;Phase 1: Groundwork and Basic Theory (1-2 Weeks) Objective: Understand the basics of flight, aircraft operations, and navigation.</description>
     </item>
     <item>
       <title>Minecraft With Friends</title>
-      <link>http://localhost:1313/blog/2023-08-28-minecraft-world/</link>
+      <link>http://kinnaman.net/blog/2023-08-28-minecraft-world/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-08-28-minecraft-world/</guid>
+      <guid>http://kinnaman.net/blog/2023-08-28-minecraft-world/</guid>
       <description>My friends and I have been playing Minecraft together over the past two weeks. Smoke from the fires in Canada have prevented us from enjoying the outdoors, so the traditionally winter game for us as a group has now occupied a portion of the summer. I conjoined the old world save we had with MCA Selector and hosted it on my old desktop PC for the first week. Unfortunately our attempts at fighting the Wither kept failing as the server would lag too much for us to shoot projectiles at it in its first phase.</description>
     </item>
     <item>
       <title>Skyrim Mods List</title>
-      <link>http://localhost:1313/blog/2023-04-23-skyrim-mods/</link>
+      <link>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-04-23-skyrim-mods/</guid>
+      <guid>http://kinnaman.net/blog/2023-04-23-skyrim-mods/</guid>
       <description>I play Skyrim Special Edition that&amp;rsquo;s sold on Steam. Using NexusMods and Vortex, it is extremely easy to install and use countless free mods created by an immensely talented community. Below are my favorite mods to enhance the vanilla experience without deviating too far. It does raise the system requirements, but virtually any discreet graphics card will run all the mods at a playable framerate.&#xA;Mod List Skyrim 202X 9.0 Address Library for SKSE Plugins - All in one (special edition) Alternate Start - Live Another Life Enhanced Lights and FX Forces New Idles in Skyrim SE - FNIS SE - FNIS Behavior SE 7_6 FranklyHD Dawnguard Armor and Weapons Immersive Amors 8.</description>
     </item>
     <item>
       <title>Simple Minecraft Merchant Stand</title>
-      <link>http://localhost:1313/blog/2022-04-16-minecraftstand/</link>
+      <link>http://kinnaman.net/blog/2022-04-16-minecraftstand/</link>
       <pubDate>Sat, 16 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-04-16-minecraftstand/</guid>
+      <guid>http://kinnaman.net/blog/2022-04-16-minecraftstand/</guid>
       <description>&#xA;This extremely simple design was made for my Minecraft Realm&amp;rsquo;s trading zone. Use string to suspend the carpet when it is not above a fence or sign. Unfortunately I am unable to provide a build guide step by step right now, but I will add it in some later post.&#xA;Materials List Block Name Quantity Barrel 3 Oak Trap Door 1 Stone Brick Wall 2 Spruce Stairs 4 Oak Fence 4 Birch Sign 1 Carpet 20 Oak Gate 3 String 12 </description>
     </item>
   </channel>

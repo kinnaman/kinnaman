@@ -2,7 +2,7 @@
 title: "From Sim to Sky: A Comprehensive 12-Week Flight Sim Training Plan for Aspiring Pilots"
 date: 2023-08-28
 layout: post
-draft: true
+draft: false
 categories: gaming
 tags: VATSIM, gaming, gpt
 ---
