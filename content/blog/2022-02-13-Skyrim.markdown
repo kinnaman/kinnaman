@@ -7,6 +7,9 @@ featured_image:
 featured_image_alt:
 tags: linux
 ---
+
+# Depricated instruction! Just use Proton from Steam!!!
+
 Setting up Skyrim on Linux is mightily easy 
 
 The only error after set up is tabbing out of game causes a freeze.
