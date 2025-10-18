@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>MTG Proxy Generator — Aligned 3x3 with Offsets</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  body { font-family: Arial, sans-serif; margin: 16px; }
+  textarea { width: 100%; box-sizing: border-box; font-family: monospace; }
+  button { margin: 8px 6px 12px 0; padding: 8px 12px; }
+  #previewArea { margin-top: 12px; display:flex; flex-wrap:wrap; gap:10px; }
+  .cardPreview { width: 140px; text-align:center; border:1px solid #ddd; padding:6px; border-radius:6px; background:#fafafa; }
+  .cardPreview img { width: 120px; height: auto; display:block; margin:0 auto 6px; }
+  .metaLabel { font-size:12px; color:#333; margin-bottom:6px; }
+  .status { margin:8px 0; color:#555; }
+  .small { font-size:12px; color:#666; }
+  .settings { margin: 8px 0 12px 0; }
+  .settings label { margin-right:12px; }
+  input[type="number"]{ width:80px; }
+</style>
+</head>
+<body>
+  <h2>MTG Proxy Generator — Aligned 3×3 (Offsets & Mirror)</h2>
+  <p class="small">Paste decklist lines: names, <code>set/collector</code>, Scryfall URLs, or Scryfall IDs. Load, pick versions, then <strong>Generate PDF</strong>.</p>
+
+  <textarea id="deckTextarea" rows="10" placeholder="4 Lightning Bolt
+Azcanta, the Sunken Ruin
+neo/277
+https://scryfall.com/card/neo/277"></textarea>
+
+  <div>
+    <button id="loadBtn">Load Cards (metadata-only)</button>
+    <button id="generateBtn" disabled>Generate PDF</button>
+    <span id="status" class="status"></span>
+  </div>
+
+  <div class="settings">
+    <label>Page outer margin (inches):
+      <input id="pageMarginIn" type="number" step="0.01" value="0.25" />
+    </label>
+    <label>Offset X (inches, positive → right):
+      <input id="offsetXIn" type="number" step="0.005" value="0" />
+    </label>
+    <label>Offset Y (inches, positive → down):
+      <input id="offsetYIn" type="number" step="0.005" value="0" />
+    </label>
+    <label>
+      <input id="mirrorBack" type="checkbox" /> Mirror back horizontally (flip X)
+    </label>
+    <span class="small">Tip: Print at 100% / Actual Size and turn off "fit to page".</span>
+  </div>
+
+  <div id="previewArea"></div>
+
+<script>
+/* CONFIG: physical card dimensions */
+const CARD_WIDTH_IN = 2.5;
+const CARD_HEIGHT_IN = 3.5;
+const COLUMNS = 3;
+const ROWS = 3;
+
+/* Derived measured in points (1in = 72pt) */
+function inToPt(inches){ return inches * 72; }
+
+/* State */
+let cardsData = []; // see earlier file structure
+const textarea = document.getElementById('deckTextarea');
+const loadBtn = document.getElementById('loadBtn');
+const generateBtn = document.getElementById('generateBtn');
+const previewArea = document.getElementById('previewArea');
+const status = document.getElementById('status');
+const pageMarginIn = document.getElementById('pageMarginIn');
+const offsetXIn = document.getElementById('offsetXIn');
+const offsetYIn = document.getElementById('offsetYIn');
+const mirrorBackEl = document.getElementById('mirrorBack');
+
+loadBtn.addEventListener('click', loadCards);
+generateBtn.addEventListener('click', generatePDF);
+
+/* Utilities for input detection */
+function isScryfallUrl(line) {
+  try { const u = new URL(line); return (u.hostname === "scryfall.com" || u.hostname.endsWith(".scryfall.com")); }
+  catch(e){ return false; }
+}
+function isSetCollector(line) { return /^[a-z0-9]{2,6}\/\d+/i.test(line.trim()); }
+function isUUID(line) { return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(line.trim()); }
+
+/* Parse input lines (same logic as before) */
+function parseInputLines(text) {
+  const lines = text.split('\n');
+  const parsed = [];
+  for (let raw of lines) {
+    raw = raw.trim();
+    if (!raw) continue;
+    if (isScryfallUrl(raw)) {
+      try {
+        const u = new URL(raw);
+        const parts = u.pathname.split('/').filter(Boolean);
+        if (parts[0] === 'card' && parts.length >= 3) {
+          parsed.push({ originalLine: raw, canonicalLine: `${parts[1]}/${parts[2]}`, type:'exact', rawType:'setcol', rawValue: `${parts[1]}/${parts[2]}` });
+        } else if (parts[0] === 'cards' && parts.length >= 2) {
+          parsed.push({ originalLine: raw, canonicalLine: parts[1], type:'exact', rawType:'id', rawValue: parts[1] });
+        } else {
+          parsed.push({ originalLine: raw, canonicalLine: null, type:'name' });
+        }
+      } catch(e){ parsed.push({ originalLine: raw, canonicalLine: null, type:'name' }); }
+    } else if (isSetCollector(raw)) {
+      parsed.push({ originalLine: raw, canonicalLine: raw.trim(), type:'exact', rawType:'setcol', rawValue: raw.trim() });
+    } else if (isUUID(raw)) {
+      parsed.push({ originalLine: raw, canonicalLine: raw.trim(), type:'exact', rawType:'id', rawValue: raw.trim() });
+    } else {
+      parsed.push({ originalLine: raw, canonicalLine: null, type:'name' });
+    }
+  }
+  return parsed;
+}
+
+/* Scryfall helpers (exact & unique=prints pagination) */
+async function fetchExactPrintingMetadata(rawType, rawValue) {
+  try {
+    if (rawType === 'setcol') {
+      const [set, collector] = rawValue.split('/');
+      const url = `https://api.scryfall.com/cards/${encodeURIComponent(set)}/${encodeURIComponent(collector)}`;
+      const r = await fetch(url);
+      if(!r.ok) throw new Error('Not found');
+      const c = await r.json();
+      return convertCardObjectToPrintingArray(c);
+    } else if (rawType === 'id') {
+      const url = `https://api.scryfall.com/cards/${encodeURIComponent(rawValue)}`;
+      const r = await fetch(url);
+      if(!r.ok) throw new Error('Not found');
+      const c = await r.json();
+      return convertCardObjectToPrintingArray(c);
+    }
+  } catch(e){
+    console.warn('fetchExactPrintingMetadata failed', e);
+    return [];
+  }
+}
+function convertCardObjectToPrintingArray(c) {
+  const out=[];
+  if (c.card_faces) {
+    out.push({
+      thumbnail: c.card_faces[0].image_uris?.small || null,
+      front: c.card_faces[0].image_uris?.normal || c.card_faces[0].image_uris?.large || null,
+      back: c.card_faces[1].image_uris?.normal || c.card_faces[1].image_uris?.large || null,
+      set: c.set_name, collector: c.collector_number, foil: c.foil || false, id: c.id
+    });
+  } else {
+    out.push({
+      thumbnail: c.image_uris?.small || null,
+      front: c.image_uris?.normal || c.image_uris?.large || null,
+      back: null,
+      set: c.set_name, collector: c.collector_number, foil: c.foil || false, id: c.id
+    });
+  }
+  return out;
+}
+
+async function fetchAllPrintingsMetadata(name) {
+  const printings = [];
+  let url = `https://api.scryfall.com/cards/search?q=!"${encodeURIComponent(name)}"&unique=prints`;
+  while (url) {
+    const r = await fetch(url);
+    if(!r.ok) throw new Error('Not found');
+    const data = await r.json();
+    for (const c of data.data) {
+      if (c.card_faces) {
+        printings.push({
+          thumbnail: c.card_faces[0].image_uris?.small || null,
+          front: c.card_faces[0].image_uris?.normal || null,
+          back: c.card_faces[1].image_uris?.normal || null,
+          set: c.set_name, collector: c.collector_number, foil: c.foil || false, id: c.id
+        });
+      } else {
+        printings.push({
+          thumbnail: c.image_uris?.small || null,
+          front: c.image_uris?.normal || null,
+          back: null,
+          set: c.set_name, collector: c.collector_number, foil: c.foil || false, id: c.id
+        });
+      }
+    }
+    url = data.has_more ? data.next_page : null;
+  }
+  return printings;
+}
+
+/* UI flow: loadCards */
+async function loadCards() {
+  try {
+    status.textContent = 'Parsing lines...';
+    generateBtn.disabled = true;
+    previewArea.innerHTML = '';
+    cardsData = [];
+
+    const parsed = parseInputLines(textarea.value);
+    if (parsed.length === 0) { status.textContent = 'No lines'; return; }
+
+    status.textContent = `Loading ${parsed.length} lines (metadata-only)...`;
+    for (let i=0;i<parsed.length;i++){
+      const p = parsed[i];
+      const entry = { originalLine: p.originalLine, canonicalLine: p.canonicalLine||null, name:null, type:p.type, printings:[], selectedIndex:0 };
+      if (p.type === 'exact') {
+        const exact = await fetchExactPrintingMetadata(p.rawType, p.rawValue);
+        if (exact.length === 0) { entry.name = p.originalLine; }
+        else {
+          entry.printings = exact;
+          entry.name = exact[0].set ? `${exact[0].set} ${exact[0].collector}` : p.originalLine;
+          if (exact[0].set && exact[0].collector) entry.canonicalLine = `${exact[0].set.toLowerCase()}/${exact[0].collector}`;
+          else entry.canonicalLine = exact[0].id;
+        }
+      } else {
+        try {
+          const all = await fetchAllPrintingsMetadata(p.originalLine);
+          entry.printings = all;
+          entry.name = p.originalLine;
+        } catch(e) {
+          entry.name = p.originalLine + ' (not found)';
+        }
+      }
+      cardsData.push(entry);
+      renderPreview(); // incremental render so user sees progress
+      status.textContent = `Loaded ${i+1}/${parsed.length}...`;
+    }
+    status.textContent = `Loaded ${cardsData.length} cards. Choose versions if desired.`;
+    generateBtn.disabled = false;
+  } catch (e) {
+    console.error(e);
+    status.textContent = 'Error: ' + e.message;
+    generateBtn.disabled = false;
+  }
+}
+
+/* Render preview */
+function renderPreview() {
+  previewArea.innerHTML = '';
+  cardsData.forEach((card, idx) => {
+    const wrapper = document.createElement('div'); wrapper.className='cardPreview';
+    const img = document.createElement('img'); img.alt = card.name || card.originalLine;
+    const selPrinting = card.printings[card.selectedIndex];
+    img.src = selPrinting?.thumbnail || 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAA1BMVEX///+nxBvIAAAAJElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAA8G8GAAE5T/0pAAAAAElFTkSuQmCC';
+    wrapper.appendChild(img);
+    const label = document.createElement('div'); label.className='metaLabel';
+    label.textContent = card.canonicalLine ? card.canonicalLine : (card.name || card.originalLine);
+    wrapper.appendChild(label);
+
+    if (card.printings && card.printings.length>0) {
+      const sel = document.createElement('select');
+      card.printings.forEach((p,pIdx) => {
+        const opt = document.createElement('option');
+        opt.value = pIdx;
+        opt.text = `${p.set} (#${p.collector})${p.foil ? ' Foil':''}${p.back? ' [DFC]':''}`;
+        sel.appendChild(opt);
+      });
+      sel.value = card.selectedIndex;
+      sel.addEventListener('change', (ev) => {
+        const newIdx = parseInt(ev.target.value);
+        card.selectedIndex = newIdx;
+        const chosen = card.printings[newIdx];
+        img.src = chosen.thumbnail || chosen.front || img.src;
+        if (chosen.set && chosen.collector) card.canonicalLine = `${chosen.set.toLowerCase()}/${chosen.collector}`;
+        else card.canonicalLine = chosen.id;
+        rewriteTextareaWithCanonicalLines();
+      });
+      wrapper.appendChild(sel);
+    } else {
+      const none = document.createElement('div'); none.className='small'; none.textContent='No printings';
+      wrapper.appendChild(none);
+    }
+
+    previewArea.appendChild(wrapper);
+  });
+}
+
+/* Rewrite textarea to canonical lines for chosen ones */
+function rewriteTextareaWithCanonicalLines(){
+  const lines = cardsData.map(cd => cd.canonicalLine ? cd.canonicalLine : cd.originalLine);
+  textarea.value = lines.join('\n');
+}
+
+/* Fetch image as dataURL */
+async function toDataURL(url) {
+  if (!url) return null;
+  const r = await fetch(url);
+  if (!r.ok) throw new Error('Image fetch failed');
+  const blob = await r.blob();
+  return new Promise(res => {
+    const reader = new FileReader();
+    reader.onload = () => res(reader.result);
+    reader.readAsDataURL(blob);
+  });
+}
+
+/* Create a flipped version of a dataURL (mirror horizontally) or flip vertically if requested */
+async function transformDataURL(srcDataURL, flipX=false, flipY=false) {
+  if (!srcDataURL) return null;
+  return new Promise(res => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement('canvas');
+      canvas.width = img.width;
+      canvas.height = img.height;
+      const ctx = canvas.getContext('2d');
+      ctx.save();
+      ctx.translate(flipX ? canvas.width : 0, flipY ? canvas.height : 0);
+      ctx.scale(flipX ? -1 : 1, flipY ? -1 : 1);
+      ctx.drawImage(img, 0, 0);
+      ctx.restore();
+      res(canvas.toDataURL('image/png'));
+    };
+    img.onerror = () => res(srcDataURL); // fallback
+    img.src = srcDataURL;
+  });
+}
+
+/* Blank card as dataURL of exact pixel size for card (we'll make canvas at measured px using CARD_WIDTH_IN/CARD_HEIGHT_IN scaled to 300dpi-ish) */
+async function blankCardDataURL() {
+  // create canvas sized proportional to target PDF size; jsPDF expects images scaled by size in pts when adding,
+  // so we can make canvas any resolution — keep it reasonably large.
+  const pxW = Math.round(CARD_WIDTH_IN * 300);
+  const pxH = Math.round(CARD_HEIGHT_IN * 300);
+  const canvas = document.createElement('canvas');
+  canvas.width = pxW; canvas.height = pxH;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0,0,pxW,pxH);
+  return canvas.toDataURL('image/png');
+}
+
+/* PDF generation with precise page size and offsets; backs optionally mirrored */
+async function generatePDF() {
+  try {
+    generateBtn.disabled = true;
+    loadBtn.disabled = true;
+    status.textContent = 'Preparing images...';
+    const { jsPDF } = window.jspdf;
+
+    // measured sizes in points
+    const cardWpt = inToPt(CARD_WIDTH_IN);
+    const cardHpt = inToPt(CARD_HEIGHT_IN);
+    const pageMarginPt = inToPt(parseFloat(pageMarginIn.value) || 0);
+    const offsetXpt = inToPt(parseFloat(offsetXIn.value) || 0);
+    const offsetYpt = inToPt(parseFloat(offsetYIn.value) || 0);
+    const mirrorBack = mirrorBackEl.checked;
+
+    const pageContentWidth = cardWpt * COLUMNS;
+    const pageContentHeight = cardHpt * ROWS;
+    const pageWidth = pageContentWidth + pageMarginPt * 2;
+    const pageHeight = pageContentHeight + pageMarginPt * 2;
+
+    // Create a doc with custom page size matching the content + margins
+    const doc = new jsPDF({ orientation: 'portrait', unit: 'pt', format: [pageWidth, pageHeight] });
+
+    // Prepare blank
+    const blank = await blankCardDataURL();
+
+    // Fetch full-res for chosen printings only
+    const frontImages = [];
+    const backImages = [];
+    for (let i=0;i<cardsData.length;i++){
+      const card = cardsData[i];
+      const p = card.printings[card.selectedIndex];
+      if (!p) {
+        frontImages.push(blank); backImages.push(blank); continue;
+      }
+      status.textContent = `Fetching full images (${i+1}/${cardsData.length})...`;
+      // front
+      if (!card.fullFrontData) {
+        try { card.fullFrontData = await toDataURL(p.front); }
+        catch(e){ console.warn('front fetch fail', e); card.fullFrontData = blank; }
+      }
+      frontImages.push(card.fullFrontData || blank);
+      // back (or blank)
+      if (p.back) {
+        if (!card.fullBackData) {
+          try { card.fullBackData = await toDataURL(p.back); }
+          catch(e){ console.warn('back fetch fail', e); card.fullBackData = blank; }
+        }
+        // if mirroring is required, do transform here so the doc receives the mirrored image
+        if (mirrorBack) {
+          try {
+            const transformed = await transformDataURL(card.fullBackData, true, false);
+            backImages.push(transformed || blank);
+          } catch(e){ backImages.push(card.fullBackData || blank); }
+        } else {
+          backImages.push(card.fullBackData || blank);
+        }
+      } else {
+        backImages.push(blank);
+      }
+    }
+
+    // Pad to multiples of 9
+    while (frontImages.length % (COLUMNS*ROWS) !== 0) {
+      frontImages.push(blank); backImages.push(blank);
+    }
+
+    // Compose pages (front then back) with explicit positioning
+    for (let pageStart = 0; pageStart < frontImages.length; pageStart += COLUMNS*ROWS) {
+      if (pageStart > 0) doc.addPage([pageWidth, pageHeight]);
+
+      // front page
+      const pageFronts = frontImages.slice(pageStart, pageStart + COLUMNS*ROWS);
+      for (let idx=0; idx<pageFronts.length; idx++) {
+        const col = idx % COLUMNS;
+        const row = Math.floor(idx / COLUMNS);
+        // compute top-left for card inside page content area
+        const x = pageMarginPt + col * cardWpt + offsetXpt;
+        const y = pageMarginPt + row * cardHpt + offsetYpt;
+        try { doc.addImage(pageFronts[idx], 'PNG', x, y, cardWpt, cardHpt); } catch(e) { console.error('addImage front err', e); }
+      }
+
+     // back page (reversed row order for long-edge duplex alignment)
+doc.addPage([pageWidth, pageHeight]);
+const pageBacks = backImages.slice(pageStart, pageStart + COLUMNS*ROWS);
+
+// We want rows to go [3,2,1], [6,5,4], [9,8,7]
+for (let row = 0; row < ROWS; row++) {
+  const rowStart = row * COLUMNS;
+  const rowSlice = pageBacks.slice(rowStart, rowStart + COLUMNS).reverse();
+  for (let col = 0; col < rowSlice.length; col++) {
+    const img = rowSlice[col];
+    const x = pageMarginPt + col * cardWpt + offsetXpt;
+    const y = pageMarginPt + row * cardHpt + offsetYpt;
+    try { doc.addImage(img, 'PNG', x, y, cardWpt, cardHpt); } catch(e) { console.error('addImage back err', e); }
+  }
+}
+
+
+      status.textContent = `Composed pages for ${Math.min(pageStart + COLUMNS*ROWS, frontImages.length)}/${frontImages.length} cards...`;
+    }
+
+    // Save
+    doc.save('mtg_proxies_aligned.pdf');
+    status.textContent = 'PDF generated. Print at 100% (Actual Size), disable "fit to page".';
+  } catch (e) {
+    console.error(e);
+    status.textContent = 'Error during PDF generation: ' + e.message;
+  } finally {
+    generateBtn.disabled = false;
+    loadBtn.disabled = false;
+  }
+}
+
+</script>
+</body>
+</html>
