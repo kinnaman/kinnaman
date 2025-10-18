@@ -411,16 +411,22 @@ async function generatePDF() {
         try { doc.addImage(pageFronts[idx], 'PNG', x, y, cardWpt, cardHpt); } catch(e) { console.error('addImage front err', e); }
       }
 
-      // back page (same layout)
-      doc.addPage([pageWidth, pageHeight]);
-      const pageBacks = backImages.slice(pageStart, pageStart + COLUMNS*ROWS);
-      for (let idx=0; idx<pageBacks.length; idx++) {
-        const col = idx % COLUMNS;
-        const row = Math.floor(idx / COLUMNS);
-        const x = pageMarginPt + col * cardWpt + offsetXpt;
-        const y = pageMarginPt + row * cardHpt + offsetYpt;
-        try { doc.addImage(pageBacks[idx], 'PNG', x, y, cardWpt, cardHpt); } catch(e) { console.error('addImage back err', e); }
-      }
+     // back page (reversed row order for long-edge duplex alignment)
+doc.addPage([pageWidth, pageHeight]);
+const pageBacks = backImages.slice(pageStart, pageStart + COLUMNS*ROWS);
+
+// We want rows to go [3,2,1], [6,5,4], [9,8,7]
+for (let row = 0; row < ROWS; row++) {
+  const rowStart = row * COLUMNS;
+  const rowSlice = pageBacks.slice(rowStart, rowStart + COLUMNS).reverse();
+  for (let col = 0; col < rowSlice.length; col++) {
+    const img = rowSlice[col];
+    const x = pageMarginPt + col * cardWpt + offsetXpt;
+    const y = pageMarginPt + row * cardHpt + offsetYpt;
+    try { doc.addImage(img, 'PNG', x, y, cardWpt, cardHpt); } catch(e) { console.error('addImage back err', e); }
+  }
+}
+
 
       status.textContent = `Composed pages for ${Math.min(pageStart + COLUMNS*ROWS, frontImages.length)}/${frontImages.length} cards...`;
     }
